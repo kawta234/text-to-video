@@ -1,0 +1,1118 @@
+2025-10-14 16:16:16,666 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-14 16:16:16,666 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-14 16:16:56,694 - INFO - ================================================================================
+2025-10-14 16:16:56,695 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-14 16:16:56,695 - INFO - Text: Quantum computing represents a groundbreaking advancement in technology, promising to solve complex ...
+2025-10-14 16:16:56,696 - INFO - Video Type: image, Size: 1920x1080
+2025-10-14 16:16:56,696 - INFO - ================================================================================
+2025-10-14 16:17:01,347 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-14 16:17:42,310 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-14 16:17:42,341 - INFO - Topics extracted: [['Computing', 'Advancement'], ['Computing', 'Advancement']]
+2025-10-14 16:17:49,783 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-14 16:17:49,784 - INFO - Search terms: ['Computing', 'Advancement']
+2025-10-14 16:17:49,785 - INFO - Already processed images: []
+2025-10-14 16:17:49,785 - INFO - Terms shuffled to: ['Advancement', 'Computing']
+2025-10-14 16:17:49,785 - INFO -   Searching Pixabay for term: 'Advancement'
+2025-10-14 16:17:49,785 - INFO -     API Request: query='Advancement', page=4, per_page=20
+2025-10-14 16:17:50,191 - INFO -     API Response: 2 results, Total available: 62
+2025-10-14 16:17:50,192 - INFO -       Result 1: ID=4341751, https://pixabay.com/get/g0ce38a259527c7478f7d0546c9bf3196db9a96ce1a52b0444c20f4b...
+2025-10-14 16:17:50,192 - INFO -       Result 2: ID=1701971, https://pixabay.com/get/g77042edc57e36e0ffc5f50280ce0aa81521040f7a82c66aa9e94a73...
+2025-10-14 16:17:50,881 - INFO -     Image 1: ID=4341751, URL=https://pixabay.com/get/g0ce38a259527c7478f7d0546c9bf3196db9a96ce1a52b0444c20f4be75544943bfbbe5c65b12b534b589159d7bf4a8a374ed1e074d685198ded5d40f176853b4_1280.jpg
+2025-10-14 16:17:50,882 - INFO -     Tags: eva unit-08, evangelion, robot, pink, advance, evolution, japanese, anime, cartoon, television, character, series, toy, figurine, unit, 08, eva, sega, gray cartoon, gray anime, gray robot, gray animation, advance, advance, advance, advance, advance, anime, eva
+2025-10-14 16:17:51,555 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-eva-unit-08-4341751_150.jpg-c9dc45c4-c103-42fc-8f53-8e1432e169f7.jpg
+2025-10-14 16:18:23,465 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-14 16:18:23,466 - INFO - Search terms: ['Computing', 'Advancement']
+2025-10-14 16:18:23,466 - INFO - Already processed images: []
+2025-10-14 16:18:23,467 - INFO - Terms shuffled to: ['Computing', 'Advancement']
+2025-10-14 16:18:23,467 - INFO -   Searching Pixabay for term: 'Computing'
+2025-10-14 16:18:23,467 - INFO -     API Request: query='Computing', page=9, per_page=20
+2025-10-14 16:18:23,828 - INFO -     API Response: 20 results, Total available: 500
+2025-10-14 16:18:23,829 - INFO -       Result 1: ID=3680243, https://pixabay.com/get/g316d0b845378f40e9e6ad3dc0eb18d08790685acf2bf99133590234...
+2025-10-14 16:18:23,830 - INFO -       Result 2: ID=923188, https://pixabay.com/get/g78f4a0d6e86f4b81b24e5f9ef2fa9ab381a63c8c31e5addd852007e...
+2025-10-14 16:18:23,830 - INFO -       Result 3: ID=6521720, https://pixabay.com/get/g34d657ca0390e00ecf9b7722c5f2cc4f09f17516c80fbb398a7cd84...
+2025-10-14 16:18:23,852 - INFO -     Image 1: ID=3680243, URL=https://pixabay.com/get/g316d0b845378f40e9e6ad3dc0eb18d08790685acf2bf991335902344f4772ae709ef556def3a20d99fd77196487b18dd2e7546df0b64e6a82facd3c553985175_1280.jpg
+2025-10-14 16:18:23,853 - INFO -     Tags: computing, garden rake, raking leaves, fall, fan broom, leaves broom, gardening, gardening equipment, working device, gardeners, garden, work, nature, quitting time, break, broom, move, landscaping
+2025-10-14 16:18:24,522 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-computing-3680243_150.jpg-bfbe5a58-21c6-4e09-bd02-4db1d1e9362d.jpg
+2025-10-14 16:19:05,875 - INFO - 127.0.0.1 - - [14/Oct/2025 16:19:05] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-14 16:32:35,103 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-14 16:32:35,104 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-14 16:32:39,726 - INFO - ================================================================================
+2025-10-14 16:32:39,726 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-14 16:32:39,727 - INFO - Text: Quantum computing represents a groundbreaking advancement in technology, promising to solve complex ...
+2025-10-14 16:32:39,727 - INFO - Video Type: image, Size: 1920x1080
+2025-10-14 16:32:39,727 - INFO - ================================================================================
+2025-10-14 16:32:44,326 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-14 16:33:35,588 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-14 16:33:35,683 - INFO - Topics extracted: [['Computing', 'Technology'], ['Computing', 'Technology']]
+2025-10-14 16:33:42,841 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-14 16:33:42,842 - INFO - Search terms: ['Computing', 'Technology']
+2025-10-14 16:33:42,842 - INFO - Already processed images: []
+2025-10-14 16:33:42,842 - INFO - Terms shuffled to: ['Technology', 'Computing']
+2025-10-14 16:33:42,843 - INFO -   Searching Pixabay for term: 'Technology'
+2025-10-14 16:33:43,765 - INFO -     Image 1: ID=2178566, URL=https://pixabay.com/get/gb1e9b8212a1b2df92a2da4d55fff6cb4c2bc032c9fda8d38eba496f874e1c8962f8ad1eac3afa7894133e95791133aa2d96f848912b40d2771b6672f38edde98_1280.jpg
+2025-10-14 16:33:43,766 - INFO -     Tags: hands, laptop, working, businessman, computer, connection, internet, workspace, indoors, typing, home office, work from home, wireless technology, portable, technology, wireless, laptop, laptop, laptop, laptop, laptop, computer, computer, computer, computer, internet, typing, typing, technology
+2025-10-14 16:33:44,697 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-hands-2178566_150.jpg-d85eaaa9-1efc-42d3-8e4f-923a1187570c.jpg
+2025-10-14 16:34:17,808 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-14 16:34:17,810 - INFO - Search terms: ['Computing', 'Technology']
+2025-10-14 16:34:17,811 - INFO - Already processed images: []
+2025-10-14 16:34:17,811 - INFO - Terms shuffled to: ['Computing', 'Technology']
+2025-10-14 16:34:17,811 - INFO -   Searching Pixabay for term: 'Computing'
+2025-10-14 16:34:18,277 - INFO -     Image 1: ID=8742329, URL=https://pixabay.com/get/g0251360f9ac36506238c4c59c1e31ce7d0368a42e528a42adadece4db9f9acf80d15fa7aaacbe40d8d72f0fed23dfdde7d091a42a845a307fd9d1cab6227b613_1280.png
+2025-10-14 16:34:18,277 - INFO -     Tags: ai generated, quantum computing, math, computing, meteor shower, universe, technology
+2025-10-14 16:34:18,904 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-ai-generated-8742329_150.png-cb742bef-e379-4347-a68d-ef02b104539e.jpg
+2025-10-14 16:34:56,836 - INFO - 127.0.0.1 - - [14/Oct/2025 16:34:56] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-14 16:37:33,562 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-14 16:37:33,563 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-14 16:38:08,333 - INFO - ================================================================================
+2025-10-14 16:38:08,334 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-14 16:38:08,335 - INFO - Text: Quantum computing represents a groundbreaking advancement in technology, promising to solve complex ...
+2025-10-14 16:38:08,335 - INFO - Video Type: image, Size: 1920x1080
+2025-10-14 16:38:08,335 - INFO - ================================================================================
+2025-10-14 16:38:12,958 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-14 16:38:18,445 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-14 16:38:18,451 - INFO - Topics extracted: [['Computing', 'Advancement'], ['Computing', 'Advancement']]
+2025-10-14 16:39:40,369 - INFO - 127.0.0.1 - - [14/Oct/2025 16:39:40] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-14 16:44:40,874 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-14 16:44:40,876 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-14 16:44:50,220 - INFO - ================================================================================
+2025-10-14 16:44:50,220 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-14 16:44:50,220 - INFO - Text: Quantum computing represents a groundbreaking advancement in technology, promising to solve complex ...
+2025-10-14 16:44:50,221 - INFO - Video Type: image, Size: 1920x1080
+2025-10-14 16:44:50,221 - INFO - ================================================================================
+2025-10-14 16:44:54,806 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-14 16:45:29,672 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-14 16:45:29,681 - INFO - Topics extracted: [['Computing', 'Advancement'], ['Computing', 'Advancement']]
+2025-10-14 16:45:35,859 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-14 16:45:35,861 - INFO - Search terms: ['Computing', 'Advancement']
+2025-10-14 16:45:35,862 - INFO - Already processed images: []
+2025-10-14 16:45:35,863 - INFO - Terms shuffled to: ['Advancement', 'Computing']
+2025-10-14 16:45:35,864 - INFO -   Searching Pixabay for term: 'Advancement'
+2025-10-14 16:45:36,318 - INFO -     Image 1: ID=8600326, URL=https://pixabay.com/get/ge628e332452d7ec2d42de3c9809c403b6ffac398a7dc89f035419dd6446fe37501ffce1b74a7d9795b43909c8cc74fd308136db49882e53b1f91ba66681ea6ac_1280.jpg
+2025-10-14 16:45:36,318 - INFO -     Tags: business, management, leadership, leaders, managers, personal development, career advancement, business professionals
+2025-10-14 16:45:37,027 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-business-8600326_150.jpg-0ea9d71e-ae90-41c1-a13b-1de9bfd1f1d6.jpg
+2025-10-14 16:46:08,046 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-14 16:46:08,046 - INFO - Search terms: ['Computing', 'Advancement']
+2025-10-14 16:46:08,046 - INFO - Already processed images: []
+2025-10-14 16:46:08,047 - INFO - Terms shuffled to: ['Computing', 'Advancement']
+2025-10-14 16:46:08,047 - INFO -   Searching Pixabay for term: 'Computing'
+2025-10-14 16:46:08,398 - INFO -     Image 1: ID=8742329, URL=https://pixabay.com/get/gb008eb2e215351b3b23c786dfae5560bca02ea21a81fbffd88c89c4335808a71576e29dae9af6dcf34b5be0094640e9957a0c2e2a1ea82eecaa8b69c2cfc7fd8_1280.png
+2025-10-14 16:46:08,398 - INFO -     Tags: ai generated, quantum computing, math, computing, meteor shower, universe, technology
+2025-10-14 16:46:08,965 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-ai-generated-8742329_150.png-e6f5b24e-ab15-4409-8aee-59ae7d5dd472.jpg
+2025-10-14 16:46:54,215 - INFO - 127.0.0.1 - - [14/Oct/2025 16:46:54] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 09:57:18,803 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 09:57:18,804 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 09:58:52,980 - INFO - ================================================================================
+2025-10-16 09:58:52,982 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 09:58:52,982 - INFO - Text: Quantum computing represents a groundbreaking advancement in technology, promising to solve complex ...
+2025-10-16 09:58:52,982 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 09:58:52,982 - INFO - ================================================================================
+2025-10-16 09:59:01,449 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 09:59:57,078 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 09:59:57,099 - INFO - Topics extracted: [['Computing', 'Advancement'], ['Computing', 'Advancement']]
+2025-10-16 10:00:04,130 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:00:04,130 - INFO - Search terms: ['Computing', 'Advancement']
+2025-10-16 10:00:04,131 - INFO - Already processed images: []
+2025-10-16 10:00:04,132 - INFO - Terms shuffled to: ['Advancement', 'Computing']
+2025-10-16 10:00:04,132 - INFO -   Searching Pixabay for term: 'Advancement'
+2025-10-16 10:00:04,997 - INFO -     Image 1: ID=8600326, URL=https://pixabay.com/get/g0ae5e83e6ba1e23aa906a6a8e66091049302962c2a19f2b99dde4b45540a8949dfb40495dd7b40b124ce69c9c45b4725f6cf35dbc216a53fd43edc4fbd048540_1280.jpg
+2025-10-16 10:00:04,998 - INFO -     Tags: business, management, leadership, leaders, managers, personal development, career advancement, business professionals
+2025-10-16 10:00:05,610 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-business-8600326_150.jpg-6703a8dd-0108-4408-9fb9-9c84047704e1.jpg
+2025-10-16 10:00:40,240 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:00:40,240 - INFO - Search terms: ['Computing', 'Advancement']
+2025-10-16 10:00:40,240 - INFO - Already processed images: []
+2025-10-16 10:00:40,241 - INFO - Terms shuffled to: ['Computing', 'Advancement']
+2025-10-16 10:00:40,241 - INFO -   Searching Pixabay for term: 'Computing'
+2025-10-16 10:00:40,698 - INFO -     Image 1: ID=8742329, URL=https://pixabay.com/get/g0046a06e2667b2d2e0afbf7d3d9249d0fdbcfd74554af2a2221404da84e10af0e67e8668bd88330bb28fb1abfcc98320de3f96b731cce9833c240d6fbc1cc12e_1280.png
+2025-10-16 10:00:40,699 - INFO -     Tags: ai generated, quantum computing, math, computing, meteor shower, universe, technology
+2025-10-16 10:00:41,616 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-ai-generated-8742329_150.png-172f6aaf-66e1-4398-9972-95de9ea9fa61.jpg
+2025-10-16 10:01:26,927 - INFO - 127.0.0.1 - - [16/Oct/2025 10:01:26] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 10:03:34,085 - INFO - ================================================================================
+2025-10-16 10:03:34,086 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 10:03:34,086 - INFO - Text: Quantum computing represents a groundbreaking advancement in technology, promising to solve complex ...
+2025-10-16 10:03:34,086 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 10:03:34,087 - INFO - ================================================================================
+2025-10-16 10:03:39,821 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 10:03:45,660 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:03:45,662 - INFO - Topics extracted: [['Computing', 'Advancement'], ['Computing', 'Advancement']]
+2025-10-16 10:03:48,150 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:03:48,150 - INFO - Search terms: ['Computing', 'Advancement']
+2025-10-16 10:03:48,151 - INFO - Already processed images: []
+2025-10-16 10:03:48,151 - INFO - Terms shuffled to: ['Advancement', 'Computing']
+2025-10-16 10:03:48,153 - INFO -   Searching Pixabay for term: 'Advancement'
+2025-10-16 10:03:48,484 - INFO -     Image 1: ID=8600326, URL=https://pixabay.com/get/g4c04bb1f6e2286eb799c89a72c7abaf6415274963db0ded3934c15de13deb1f0c8c03b14b1022b3086b0fc9fb7c6d1a98d7e7cedb780b87dc276a815df65ab0b_1280.jpg
+2025-10-16 10:03:48,484 - INFO -     Tags: business, management, leadership, leaders, managers, personal development, career advancement, business professionals
+2025-10-16 10:03:49,043 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-business-8600326_150.jpg-e3bc0c24-5cf8-45a1-928f-5fc89430f207.jpg
+2025-10-16 10:04:17,659 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:04:17,661 - INFO - Search terms: ['Computing', 'Advancement']
+2025-10-16 10:04:17,662 - INFO - Already processed images: []
+2025-10-16 10:04:17,663 - INFO - Terms shuffled to: ['Computing', 'Advancement']
+2025-10-16 10:04:17,663 - INFO -   Searching Pixabay for term: 'Computing'
+2025-10-16 10:04:18,070 - INFO -     Image 1: ID=8742329, URL=https://pixabay.com/get/g31b724e485e91b3f87ae275a468014b0a7dc72e22fc7ec100ac8dede4daea1547f3efe860218d32016cdc9c47b0ac1c7725662f2feadb360280cf3eab83bcc49_1280.png
+2025-10-16 10:04:18,071 - INFO -     Tags: ai generated, quantum computing, math, computing, meteor shower, universe, technology
+2025-10-16 10:04:18,484 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-ai-generated-8742329_150.png-bdaf1bfa-5047-4a5d-8a47-f26b9f8fef00.jpg
+2025-10-16 10:04:57,563 - INFO - 127.0.0.1 - - [16/Oct/2025 10:04:57] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 10:13:38,165 - INFO - ================================================================================
+2025-10-16 10:13:38,166 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 10:13:38,166 - INFO - Text: Quantum computing represents a groundbreaking advancement in technology, promising to solve complex ...
+2025-10-16 10:13:38,166 - INFO - Video Type: video, Size: 1920x1080
+2025-10-16 10:13:38,167 - INFO - ================================================================================
+2025-10-16 10:13:42,756 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 10:14:17,977 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:14:17,980 - INFO - Topics extracted: [['Computing', 'Technology'], ['Computing', 'Technology']]
+2025-10-16 10:14:31,730 - ERROR - ERROR in make_video: ('Lengths must match to compare', (14907,), (1,))
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 86, in make_video
+    topic_clips = make_video_from_video_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height,sub)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\video.py", line 85, in make_video_from_video_test
+    video_path_list = search_video_for_dataframe_pixabay_video(row['terms'], api_key,processed_video_paths)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\scrapping_api_video.py", line 277, in search_video_for_dataframe_pixabay_video
+    merged_metadata.loc[merged_metadata['path_datalake'] == video_path, 'count_usage'] += 1
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\pandas\core\ops\common.py", line 76, in new_method
+    return method(self, other)
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\pandas\core\arraylike.py", line 40, in __eq__
+    return self._cmp_method(other, operator.eq)
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\pandas\core\series.py", line 6119, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\pandas\core\ops\array_ops.py", line 321, in comparison_op
+    raise ValueError(
+ValueError: ('Lengths must match to compare', (14907,), (1,))
+2025-10-16 10:14:31,934 - INFO - 127.0.0.1 - - [16/Oct/2025 10:14:31] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-16 10:17:15,701 - INFO - ================================================================================
+2025-10-16 10:17:15,781 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 10:17:15,824 - INFO - Text: Quantum computing represents a groundbreaking advancement in technology, promising to solve complex ...
+2025-10-16 10:17:15,829 - INFO - Video Type: video, Size: 1920x1080
+2025-10-16 10:17:15,839 - INFO - ================================================================================
+2025-10-16 10:17:43,721 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 10:17:52,131 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:17:52,137 - INFO - Topics extracted: [['Computing', 'Advancement'], ['Computing', 'Advancement']]
+2025-10-16 10:18:15,047 - ERROR - ERROR in make_video: list index out of range
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 86, in make_video
+    topic_clips = make_video_from_video_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height,sub)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\video.py", line 86, in make_video_from_video_test
+    video_path_list=replace_default_video(video_path_list,processed_video_paths)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\video.py", line 22, in replace_default_video
+    image_path_list[i] = processed_image_paths[-1]
+IndexError: list index out of range
+2025-10-16 10:18:15,062 - INFO - 127.0.0.1 - - [16/Oct/2025 10:18:15] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-16 10:18:56,234 - INFO - ================================================================================
+2025-10-16 10:18:56,235 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 10:18:56,236 - INFO - Text: Quantum computing represents a groundbreaking advancement in technology...
+2025-10-16 10:18:56,239 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 10:18:56,240 - INFO - ================================================================================
+2025-10-16 10:19:14,298 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 10:19:25,727 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:19:25,731 - INFO - Topics extracted: [['Computing', 'Advancement']]
+2025-10-16 10:19:27,242 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:19:27,244 - INFO - Search terms: ['Computing', 'Advancement']
+2025-10-16 10:19:27,244 - INFO - Already processed images: []
+2025-10-16 10:19:27,244 - INFO - Terms shuffled to: ['Advancement', 'Computing']
+2025-10-16 10:19:27,245 - INFO -   Searching Pixabay for term: 'Advancement'
+2025-10-16 10:19:27,873 - INFO -     Image 1: ID=8600326, URL=https://pixabay.com/get/g2beb442106f684bdb50eba3a531524d0b8e745a7ef49b7de59b918dd69b9057385c837432ee956b828c5bdd4ebee14053cd7c9b0ebb3cc0464b1ee7dc00e7244_1280.jpg
+2025-10-16 10:19:27,876 - INFO -     Tags: business, management, leadership, leaders, managers, personal development, career advancement, business professionals
+2025-10-16 10:19:28,311 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-business-8600326_150.jpg-c64f8ccc-f406-4f51-8ce8-0adb29b0d34a.jpg
+2025-10-16 10:20:32,943 - INFO - 127.0.0.1 - - [16/Oct/2025 10:20:32] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 10:32:41,832 - INFO - ================================================================================
+2025-10-16 10:32:41,833 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 10:32:41,833 - INFO - Text: Coffee is more than just a morning ritual - it's a global phenomenon that touches billions of lives ...
+2025-10-16 10:32:41,835 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 10:32:41,835 - INFO - ================================================================================
+2025-10-16 10:32:47,742 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 10:33:32,979 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:33:47,692 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:33:47,706 - INFO - Topics extracted: [['Phenomenon', 'Ritual'], ['Phenomenon', 'Ritual'], ['Coffee', 'Connection'], ['Coffee', 'Connection']]
+2025-10-16 10:33:52,531 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:33:52,531 - INFO - Search terms: ['Phenomenon', 'Ritual']
+2025-10-16 10:33:52,532 - INFO - Already processed images: []
+2025-10-16 10:33:52,532 - INFO - Terms shuffled to: ['Phenomenon', 'Ritual']
+2025-10-16 10:33:52,533 - INFO -   Searching Pixabay for term: 'Phenomenon'
+2025-10-16 10:33:53,494 - INFO -     Image 1: ID=589049, URL=https://pixabay.com/get/g8fe5941fc7d3e34be63d0c76028babb790c6a9430cad3e94c0c471fec891ad1212df71337c9c4b31c46d5cc721e9aa6812902a87f6df69704ff01fb0136ca089_1280.jpg
+2025-10-16 10:33:53,495 - INFO -     Tags: aurora, nature, northern lights, aurora borealis, borealis, green lights, natural phenomenon, phenomenon, norway, sky, night, night sky, snow mountains
+2025-10-16 10:33:54,144 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-aurora-589049_150.jpg-524e0b86-1dc0-4c1c-b80b-9ced24184108.jpg
+2025-10-16 10:34:18,862 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:34:18,863 - INFO - Search terms: ['Phenomenon', 'Ritual']
+2025-10-16 10:34:18,863 - INFO - Already processed images: []
+2025-10-16 10:34:18,864 - INFO - Terms shuffled to: ['Ritual', 'Phenomenon']
+2025-10-16 10:34:18,864 - INFO -   Searching Pixabay for term: 'Ritual'
+2025-10-16 10:34:19,644 - INFO -     Image 1: ID=1868640, URL=https://pixabay.com/get/g355e6a789913bed9c8fdbeeff8d0a18b1ee9b82b5763e87d893044265268a92a4ad0cfc3de6b5c8fbb3764e4ca9deabfdb52b274cef0b5bc74b1bf12689efeec_1280.jpg
+2025-10-16 10:34:19,644 - INFO -     Tags: candles, pumpkins, witch, skull, candlelight, wicca, ceremony, occult, creepy, dark, eerie, halloween, hands, horror, person, scary, magic, witchcraft, happy halloween, witch, halloween, halloween, halloween, halloween, halloween, horror, horror
+2025-10-16 10:34:20,370 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-candles-1868640_150.jpg-b3c4164f-c76b-4324-89f5-7c63547c24fe.jpg
+2025-10-16 10:34:53,362 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:34:53,362 - INFO - Search terms: ['Coffee', 'Connection']
+2025-10-16 10:34:53,362 - INFO - Already processed images: []
+2025-10-16 10:34:53,363 - INFO - Terms shuffled to: ['Coffee', 'Connection']
+2025-10-16 10:34:53,363 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 10:34:53,803 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/g67c6a70226607aa23e5104c6acdb2f02da040297a125554b1d3a838fa80686e6d4b8596af981fc5f19f05735f62bfa3718033619a69b52d1bde46341f2d5d1a8_1280.jpg
+2025-10-16 10:34:53,804 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 10:34:54,532 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-01c13f3d-c356-4956-9a71-5895e8bf79f8.jpg
+2025-10-16 10:35:42,562 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:35:42,562 - INFO - Search terms: ['Coffee', 'Connection']
+2025-10-16 10:35:42,563 - INFO - Already processed images: []
+2025-10-16 10:35:42,564 - INFO - Terms shuffled to: ['Coffee', 'Connection']
+2025-10-16 10:35:42,564 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 10:35:42,917 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/g518235996c35c90d6cf8cf27ea82e3aba31242d7cf5a9a8a193ac857cb77198b7e5d560360f4b56297dd95de73cf636e7a2aa54cfa715774bf9fd8aecc133ccb_1280.jpg
+2025-10-16 10:35:42,918 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 10:35:43,633 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-abc9e035-d9bc-4e94-8ce2-7bcda7e17ffd.jpg
+2025-10-16 10:36:20,704 - INFO - 127.0.0.1 - - [16/Oct/2025 10:36:20] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 10:37:56,687 - INFO - ================================================================================
+2025-10-16 10:37:56,687 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 10:37:56,688 - INFO - Text: Coffee is more than just a morning ritual it's a global phenomenon that touches billions of lives ev...
+2025-10-16 10:37:56,688 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 10:37:56,688 - INFO - ================================================================================
+2025-10-16 10:38:02,037 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 10:38:14,051 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:38:27,361 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:38:27,363 - INFO - Topics extracted: [['Phenomenon', 'Ritual'], ['Phenomenon', 'Ritual'], ['Coffee', 'Routines'], ['Coffee', 'Routines']]
+2025-10-16 10:38:32,042 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:38:32,042 - INFO - Search terms: ['Phenomenon', 'Ritual']
+2025-10-16 10:38:32,043 - INFO - Already processed images: []
+2025-10-16 10:38:32,043 - INFO - Terms shuffled to: ['Phenomenon', 'Ritual']
+2025-10-16 10:38:32,043 - INFO -   Searching Pixabay for term: 'Phenomenon'
+2025-10-16 10:38:32,864 - INFO -     Image 1: ID=589049, URL=https://pixabay.com/get/g83d29d52027c1451a7aa179fa8eb4533a3cb3aa652cd695a8bdc9054c8533fbe9253f31aba7fd59d0c66d655658abbac55c8a8ff0089642a4fb5e309015053b5_1280.jpg
+2025-10-16 10:38:32,864 - INFO -     Tags: aurora, nature, northern lights, aurora borealis, borealis, green lights, natural phenomenon, phenomenon, norway, sky, night, night sky, snow mountains
+2025-10-16 10:38:33,298 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-aurora-589049_150.jpg-85b84a75-db1d-4a5a-af57-f9bc1b4714a3.jpg
+2025-10-16 10:38:49,685 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:38:49,686 - INFO - Search terms: ['Phenomenon', 'Ritual']
+2025-10-16 10:38:49,686 - INFO - Already processed images: []
+2025-10-16 10:38:49,686 - INFO - Terms shuffled to: ['Phenomenon', 'Ritual']
+2025-10-16 10:38:49,686 - INFO -   Searching Pixabay for term: 'Phenomenon'
+2025-10-16 10:38:50,495 - INFO -     Image 1: ID=589049, URL=https://pixabay.com/get/g69c5e85f588f0ddeabc87c818808d98a34e41fadbfc0a1e2e201f5387734f5f9882eb13d5166a4a31dc989988701519d000ec7aa0573afd7061f087b48b48360_1280.jpg
+2025-10-16 10:38:50,495 - INFO -     Tags: aurora, nature, northern lights, aurora borealis, borealis, green lights, natural phenomenon, phenomenon, norway, sky, night, night sky, snow mountains
+2025-10-16 10:38:50,945 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-aurora-589049_150.jpg-ce17759a-f758-41b3-b94d-5814f99119f0.jpg
+2025-10-16 10:39:10,909 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:39:10,911 - INFO - Search terms: ['Coffee', 'Routines']
+2025-10-16 10:39:10,911 - INFO - Already processed images: []
+2025-10-16 10:39:10,911 - INFO - Terms shuffled to: ['Routines', 'Coffee']
+2025-10-16 10:39:10,912 - INFO -   Searching Pixabay for term: 'Routines'
+2025-10-16 10:39:11,848 - INFO -     Image 1: ID=6252827, URL=https://pixabay.com/get/g05358e23723bc72e8408672230dc1c29319226d0517ec1d8437fa01b9123ef85c6989293e1962032afd34c85ec29927cc91763f14fc5ce5a47c6406c3092f714_1280.jpg
+2025-10-16 10:39:11,848 - INFO -     Tags: running, woman, fitness, runner, jogging, exercise, wellness, active, athlete, run, lifestyle, outdoors, running, running, running, running, running, fitness, runner, jogging, exercise, exercise, run
+2025-10-16 10:39:12,503 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-running-6252827_150.jpg-e9b9ebc3-4f65-4f79-8d73-417ac935794f.jpg
+2025-10-16 10:39:45,287 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:39:45,288 - INFO - Search terms: ['Coffee', 'Routines']
+2025-10-16 10:39:45,288 - INFO - Already processed images: []
+2025-10-16 10:39:45,288 - INFO - Terms shuffled to: ['Routines', 'Coffee']
+2025-10-16 10:39:45,289 - INFO -   Searching Pixabay for term: 'Routines'
+2025-10-16 10:39:46,074 - INFO -     Image 1: ID=6252827, URL=https://pixabay.com/get/ga60c0f12348066a49bae5c7ae1e86d09d5dd7a682086fbff43e7dfc00ecb013fce7a04d0b93c51c0bf54033c413631c6ab59f1267043a22252f7092331451309_1280.jpg
+2025-10-16 10:39:46,075 - INFO -     Tags: running, woman, fitness, runner, jogging, exercise, wellness, active, athlete, run, lifestyle, outdoors, running, running, running, running, running, fitness, runner, jogging, exercise, exercise, run
+2025-10-16 10:39:46,556 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-running-6252827_150.jpg-3e1c147c-178c-40dc-b237-d7d97e39a70c.jpg
+2025-10-16 10:40:24,235 - INFO - 127.0.0.1 - - [16/Oct/2025 10:40:24] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 10:41:41,476 - INFO - ================================================================================
+2025-10-16 10:41:41,476 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 10:41:41,477 - INFO - Text: Whether you take it black, with cream and sugar, as a foamy cappuccino, or an iced latte on a hot su...
+2025-10-16 10:41:41,478 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 10:41:41,478 - INFO - ================================================================================
+2025-10-16 10:41:46,484 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 10:42:04,270 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:42:04,274 - INFO - Topics extracted: [['Coffee', 'Humanity'], ['Coffee', 'Humanity']]
+2025-10-16 10:42:07,439 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:42:07,439 - INFO - Search terms: ['Coffee', 'Humanity']
+2025-10-16 10:42:07,441 - INFO - Already processed images: []
+2025-10-16 10:42:07,441 - INFO - Terms shuffled to: ['Humanity', 'Coffee']
+2025-10-16 10:42:07,442 - INFO -   Searching Pixabay for term: 'Humanity'
+2025-10-16 10:42:07,831 - INFO -     Image 1: ID=2045992, URL=https://pixabay.com/get/g147458d91a95d1c7a70c3a8653223e5fc16ee309649825b99cbd7746afeeef22a3fa434fdba85c499ac3e2e13808986a633d48287f8a4d9e8b4dbd1f2a016b83_1280.jpg
+2025-10-16 10:42:07,833 - INFO -     Tags: humanity, help, social, hope, human, people, letters, word, humanity, humanity, humanity, humanity, humanity, help, hope, hope, word
+2025-10-16 10:42:08,455 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-humanity-2045992_150.jpg-8d630538-ce73-48be-8df9-a6e9c8f1f57e.jpg
+2025-10-16 10:42:57,177 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:42:57,177 - INFO - Search terms: ['Coffee', 'Humanity']
+2025-10-16 10:42:57,178 - INFO - Already processed images: []
+2025-10-16 10:42:57,178 - INFO - Terms shuffled to: ['Humanity', 'Coffee']
+2025-10-16 10:42:57,179 - INFO -   Searching Pixabay for term: 'Humanity'
+2025-10-16 10:42:57,540 - INFO -     Image 1: ID=2045992, URL=https://pixabay.com/get/g68706d617aa61d056edb19590150c64f8eea1c996d020928db4e4404e05ed20ef30095273b1cd589cd5de7e7c4f27f05c15c930b41f898115f166dea0338456f_1280.jpg
+2025-10-16 10:42:57,540 - INFO -     Tags: humanity, help, social, hope, human, people, letters, word, humanity, humanity, humanity, humanity, humanity, help, hope, hope, word
+2025-10-16 10:42:58,062 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-humanity-2045992_150.jpg-a019ff9d-cfbf-4b78-a36b-a14ed5efa050.jpg
+2025-10-16 10:44:23,387 - INFO - 127.0.0.1 - - [16/Oct/2025 10:44:23] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 10:52:55,511 - INFO - ================================================================================
+2025-10-16 10:52:55,511 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 10:52:55,512 - INFO - Text:  coffee remains one of humanity's most cherished beverages a daily reminder that sometimes the simpl...
+2025-10-16 10:52:55,512 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 10:52:55,512 - INFO - ================================================================================
+2025-10-16 10:53:00,793 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 10:53:36,496 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:53:36,502 - INFO - Topics extracted: [['Humanity', 'Beverages'], ['Humanity', 'Beverages']]
+2025-10-16 10:53:38,854 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:53:38,854 - INFO - Search terms: ['Humanity', 'Beverages']
+2025-10-16 10:53:38,855 - INFO - Already processed images: []
+2025-10-16 10:53:38,855 - INFO - Terms shuffled to: ['Humanity', 'Beverages']
+2025-10-16 10:53:38,855 - INFO -   Searching Pixabay for term: 'Humanity'
+2025-10-16 10:53:39,303 - INFO -     Image 1: ID=2045992, URL=https://pixabay.com/get/gef7928b7ff14d211caf81c66f522ee8c403bb410b4f4cf1c3f200b52ddca31d205a61e662ec16fb3a7029f5a5ae8ca690ce539f8e1d216fb4a50638b7fc6b417_1280.jpg
+2025-10-16 10:53:39,303 - INFO -     Tags: humanity, help, social, hope, human, people, letters, word, humanity, humanity, humanity, humanity, humanity, help, hope, hope, word
+2025-10-16 10:53:39,792 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-humanity-2045992_150.jpg-15923e5a-b7b0-4d06-9a90-3e548e4efc20.jpg
+2025-10-16 10:54:10,989 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:54:10,990 - INFO - Search terms: ['Humanity', 'Beverages']
+2025-10-16 10:54:10,990 - INFO - Already processed images: []
+2025-10-16 10:54:10,990 - INFO - Terms shuffled to: ['Humanity', 'Beverages']
+2025-10-16 10:54:10,991 - INFO -   Searching Pixabay for term: 'Humanity'
+2025-10-16 10:54:11,364 - INFO -     Image 1: ID=2045992, URL=https://pixabay.com/get/g4d67b16090ab6abd8c0e2cc52a2479f8b34c4ade519edbd1b7fb0eef1dbceef9b94577a23de8feb3d16bfb87baefa7e7abfab06030365d5ab89acfb87e0ebf81_1280.jpg
+2025-10-16 10:54:11,364 - INFO -     Tags: humanity, help, social, hope, human, people, letters, word, humanity, humanity, humanity, humanity, humanity, help, hope, hope, word
+2025-10-16 10:54:11,848 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-humanity-2045992_150.jpg-0c489ed4-f7cf-4d20-9d20-5b4533c84195.jpg
+2025-10-16 10:54:50,956 - INFO - 127.0.0.1 - - [16/Oct/2025 10:54:50] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 10:55:15,185 - INFO - ================================================================================
+2025-10-16 10:55:15,186 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 10:55:15,186 - INFO - Text:  coffee remains one of humanity's most cherished beverages a daily reminder that sometimes the simpl...
+2025-10-16 10:55:15,186 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 10:55:15,187 - INFO - ================================================================================
+2025-10-16 10:55:20,354 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 10:55:27,046 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 10:55:27,051 - INFO - Topics extracted: [['Humanity', 'Beverages'], ['Humanity', 'Beverages']]
+2025-10-16 10:55:29,434 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:55:29,435 - INFO - Search terms: ['Humanity', 'Beverages']
+2025-10-16 10:55:29,436 - INFO - Already processed images: []
+2025-10-16 10:55:29,438 - INFO - Terms shuffled to: ['Beverages', 'Humanity']
+2025-10-16 10:55:29,440 - INFO -   Searching Pixabay for term: 'Beverages'
+2025-10-16 10:55:29,823 - INFO -     Image 1: ID=422138, URL=https://pixabay.com/get/gb4d44709aec5e1eb63fe9a02fcb7f81ee854073d86bba5e3086f2707288a2adf6bd9d8478337a3b2c39d6dc43d5171e285504deeba4a9699aa01a297d0a084c0_1280.jpg
+2025-10-16 10:55:29,823 - INFO -     Tags: beer, glass, ale, fermented, glass of beer, beverage, alcoholic, drink, alcohol, pint, alcoholic drink, alcoholic beverage, beer, beer, beer, beer, beer
+2025-10-16 10:55:30,516 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-beer-422138_150.jpg-c6d4e88b-45a5-4482-a584-d9fe0226bae5.jpg
+2025-10-16 10:56:00,534 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 10:56:00,535 - INFO - Search terms: ['Humanity', 'Beverages']
+2025-10-16 10:56:00,535 - INFO - Already processed images: []
+2025-10-16 10:56:00,535 - INFO - Terms shuffled to: ['Humanity', 'Beverages']
+2025-10-16 10:56:00,536 - INFO -   Searching Pixabay for term: 'Humanity'
+2025-10-16 10:56:00,916 - INFO -     Image 1: ID=2045992, URL=https://pixabay.com/get/g2d4864fa7eb2c4c8dde333be57864c323763efc2feb17b11267551d9cd936e2a7a6ae9349a1cf272aaf8bb2d617cbf6231bfd7608510780097275ad36b406d9e_1280.jpg
+2025-10-16 10:56:00,916 - INFO -     Tags: humanity, help, social, hope, human, people, letters, word, humanity, humanity, humanity, humanity, humanity, help, hope, hope, word
+2025-10-16 10:56:01,443 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-humanity-2045992_150.jpg-86dc2349-0950-40b4-b642-428a6cb26fb0.jpg
+2025-10-16 10:56:34,425 - INFO - 127.0.0.1 - - [16/Oct/2025 10:56:34] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 11:01:41,490 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 11:01:41,490 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 11:01:54,367 - INFO - ================================================================================
+2025-10-16 11:01:54,367 - INFO - NEW VIDEO REQUEST - User: himdane, Video ID: video_himdane
+2025-10-16 11:01:54,367 - INFO - Text:  coffee remains one of humanity's most cherished beverages a daily reminder that sometimes the simpl...
+2025-10-16 11:01:54,368 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 11:01:54,368 - INFO - ================================================================================
+2025-10-16 11:01:58,967 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 11:03:21,620 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:03:21,702 - INFO - Topics extracted: [['Coffee', 'Humanity'], ['Coffee', 'Humanity']]
+2025-10-16 11:03:28,858 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:03:28,858 - INFO - Search terms: ['Coffee', 'Humanity']
+2025-10-16 11:03:28,858 - INFO - Already processed images: []
+2025-10-16 11:03:28,859 - INFO - Terms shuffled to: ['Humanity', 'Coffee']
+2025-10-16 11:03:28,859 - INFO -   Searching Pixabay for term: 'Humanity'
+2025-10-16 11:03:29,873 - INFO -     Image 1: ID=2045992, URL=https://pixabay.com/get/g7bca2f2748182d593472cdb1bcce6d85113d1bebf44888d2f76bea35dfae0c1965116d27a8e86d7eaa8c38dff46e2bc86b8d656440b001519aa76710bb9afac7_1280.jpg
+2025-10-16 11:03:29,873 - INFO -     Tags: humanity, help, social, hope, human, people, letters, word, humanity, humanity, humanity, humanity, humanity, help, hope, hope, word
+2025-10-16 11:03:30,381 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-humanity-2045992_150.jpg-1ff1423c-2b53-4561-9cef-633295f4ddf7.jpg
+2025-10-16 11:04:04,489 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:04:04,490 - INFO - Search terms: ['Coffee', 'Humanity']
+2025-10-16 11:04:04,491 - INFO - Already processed images: []
+2025-10-16 11:04:04,491 - INFO - Terms shuffled to: ['Coffee', 'Humanity']
+2025-10-16 11:04:04,493 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 11:04:04,886 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/g348ff56ad41fc6393b99576312ca6b046c12b578a06e72284aa13487884f207ce09cbf4449b22ae2f969652000710d60635982a603ac2fd0ffb4a6907bb584aa_1280.jpg
+2025-10-16 11:04:04,887 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 11:04:05,429 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-d7d17c0a-daba-4b63-9489-dacb471959eb.jpg
+2025-10-16 11:04:46,784 - INFO - 127.0.0.1 - - [16/Oct/2025 11:04:46] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 11:07:13,764 - INFO - ================================================================================
+2025-10-16 11:07:13,765 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 11:07:13,765 - INFO - Text: Coffee is more than just a morning ritual - it's a global phenomenon that touches billions of lives ...
+2025-10-16 11:07:13,765 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 11:07:13,765 - INFO - ================================================================================
+2025-10-16 11:07:21,024 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 11:07:34,413 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:07:53,122 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:08:06,629 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:08:19,668 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:08:32,681 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:08:32,684 - INFO - Topics extracted: [['Global Phenomenon', 'Morning Ritual'], ['Global Phenomenon', 'Morning Ritual'], ['Coffee', 'Regions'], ['Coffee', 'Regions'], ['Crops', 'Economies'], ['Crops', 'Economies'], ['Region', 'Characteristics'], ['Region', 'Characteristics'], ['Coffee', 'Flavor'], ['Coffee', 'Flavor']]
+2025-10-16 11:08:44,831 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:08:44,832 - INFO - Search terms: ['Global Phenomenon', 'Morning Ritual']
+2025-10-16 11:08:44,833 - INFO - Already processed images: []
+2025-10-16 11:08:44,834 - INFO - Terms shuffled to: ['Morning Ritual', 'Global Phenomenon']
+2025-10-16 11:08:44,836 - INFO -   Searching Pixabay for term: 'Morning Ritual'
+2025-10-16 11:08:45,188 - INFO -   Searching Pixabay for term: 'Global Phenomenon'
+2025-10-16 11:08:45,803 - ERROR - ERROR in make_video: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 156, in make_video_from_images_test
+    image_clip = concatenate_videoclips(image_clips, method="compose")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\moviepy\video\compositing\concatenate.py", line 75, in concatenate_videoclips
+    w = max(r[0] for r in sizes)
+ValueError: max() arg is an empty sequence
+2025-10-16 11:08:45,838 - INFO - 127.0.0.1 - - [16/Oct/2025 11:08:45] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-16 11:09:51,913 - INFO - ================================================================================
+2025-10-16 11:09:51,913 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 11:09:51,913 - INFO - Text: Coffee is more than just a morning ritual - it's a global phenomenon that touches billions of lives ...
+2025-10-16 11:09:51,914 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 11:09:51,914 - INFO - ================================================================================
+2025-10-16 11:09:56,811 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 11:10:09,091 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:10:30,975 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:10:42,747 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:10:55,971 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:11:09,337 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:11:09,339 - INFO - Topics extracted: [['Global Phenomenon', 'Morning Ritual'], ['Global Phenomenon', 'Morning Ritual'], ['Coffee', 'Regions'], ['Coffee', 'Regions'], ['Crops', 'Economies'], ['Crops', 'Economies'], ['Region', 'Characteristics'], ['Region', 'Characteristics'], ['Coffee', 'Flavor'], ['Coffee', 'Flavor']]
+2025-10-16 11:11:21,591 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:11:21,591 - INFO - Search terms: ['Global Phenomenon', 'Morning Ritual']
+2025-10-16 11:11:21,592 - INFO - Already processed images: []
+2025-10-16 11:11:21,592 - INFO - Terms shuffled to: ['Morning Ritual', 'Global Phenomenon']
+2025-10-16 11:11:21,592 - INFO -   Searching Pixabay for term: 'Morning Ritual'
+2025-10-16 11:11:21,931 - INFO -   Searching Pixabay for term: 'Global Phenomenon'
+2025-10-16 11:11:22,430 - ERROR - ERROR in make_video: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 156, in make_video_from_images_test
+    image_clip = concatenate_videoclips(image_clips, method="compose")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\moviepy\video\compositing\concatenate.py", line 75, in concatenate_videoclips
+    w = max(r[0] for r in sizes)
+ValueError: max() arg is an empty sequence
+2025-10-16 11:11:22,433 - INFO - 127.0.0.1 - - [16/Oct/2025 11:11:22] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-16 11:12:10,724 - INFO - ================================================================================
+2025-10-16 11:12:10,724 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 11:12:10,725 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 11:12:10,726 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 11:12:10,726 - INFO - ================================================================================
+2025-10-16 11:12:15,428 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 11:12:26,306 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:12:38,586 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:12:51,112 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:13:03,931 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:13:03,935 - INFO - Topics extracted: [['Coffee', 'Regions'], ['Coffee', 'Regions'], ['Economies', 'Crops'], ['Economies', 'Crops'], ['Region', 'Characteristics'], ['Region', 'Characteristics'], ['Coffee', 'Flavor'], ['Coffee', 'Flavor']]
+2025-10-16 11:13:12,607 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:13:12,607 - INFO - Search terms: ['Coffee', 'Regions']
+2025-10-16 11:13:12,609 - INFO - Already processed images: []
+2025-10-16 11:13:12,610 - INFO - Terms shuffled to: ['Coffee', 'Regions']
+2025-10-16 11:13:12,610 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 11:13:12,984 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/gc421122839a530ab6769627a2baf3cb9542182f65f918244f6f28772ce12e845e754334149cc4b188081e7812d027460afe38d82b1cbad8b7d11b8a4f97a7eb3_1280.jpg
+2025-10-16 11:13:12,984 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 11:13:13,532 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-5e59e2de-cb24-4be7-bf7c-70d30809c9f5.jpg
+2025-10-16 11:13:42,530 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:13:42,530 - INFO - Search terms: ['Coffee', 'Regions']
+2025-10-16 11:13:42,532 - INFO - Already processed images: []
+2025-10-16 11:13:42,533 - INFO - Terms shuffled to: ['Coffee', 'Regions']
+2025-10-16 11:13:42,533 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 11:13:42,929 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/g65b7748314777198ccbf8aced74aeb92541ce51cec417d3804d602a87ed76298a128479b5ce91cf8c741b60c454a654583c9c72b8f61d7412399c7386c7f2628_1280.jpg
+2025-10-16 11:13:42,930 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 11:13:43,785 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-22d048d3-4417-4907-b27a-02efa69cdfa2.jpg
+2025-10-16 11:14:11,528 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:14:11,529 - INFO - Search terms: ['Economies', 'Crops']
+2025-10-16 11:14:11,529 - INFO - Already processed images: []
+2025-10-16 11:14:11,529 - INFO - Terms shuffled to: ['Economies', 'Crops']
+2025-10-16 11:14:11,530 - INFO -   Searching Pixabay for term: 'Economies'
+2025-10-16 11:14:21,804 - INFO -     Image 1: ID=680572, URL=https://pixabay.com/get/geeac8e83c39ee0b201c604a300c901169e67e428718582265c2b7a6d8b315bf2d8b0e703e0d8ca2a8b206bd74d75fbbcafce0388ca2cbaf06b552f299d177a86_1280.jpg
+2025-10-16 11:14:21,805 - INFO -     Tags: analysis, pay, business people, meeting, banks, stock exchange, trading floor, dollar, euro, finance, financial crisis, financial world, business, business dealings, win, capital, economy, loans, politics, pension, recession, speculation, loss, delivery date, forward business, world economy, economic crisis, stock exchange, economy, economy, economy, economy, economy, politics, politics, recession, recession, recession
+2025-10-16 11:14:41,500 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-analysis-680572_150.jpg-427986c9-6e0f-4d0f-90b8-8b4842a843ae.jpg
+2025-10-16 11:15:03,155 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:15:03,155 - INFO - Search terms: ['Economies', 'Crops']
+2025-10-16 11:15:03,156 - INFO - Already processed images: []
+2025-10-16 11:15:03,156 - INFO - Terms shuffled to: ['Crops', 'Economies']
+2025-10-16 11:15:03,157 - INFO -   Searching Pixabay for term: 'Crops'
+2025-10-16 11:15:03,688 - INFO -     Image 1: ID=5447847, URL=https://pixabay.com/get/g32f31a3ab26c57d60c2a11d9ce0d1432fa061a97df2b130cec921a365d1b4926bf894966a72524e54b26f109933b9c4155555fdd7f751ad056db2ab200e10144_1280.jpg
+2025-10-16 11:15:03,690 - INFO -     Tags: rye, grain, rye field, nature, spike, crop, food, rye, rye, rye, rye, rye
+2025-10-16 11:15:05,355 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-rye-5447847_150.jpg-572444c6-b3d7-4818-94ca-fc0dc75717f2.jpg
+2025-10-16 11:15:38,041 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:15:38,042 - INFO - Search terms: ['Region', 'Characteristics']
+2025-10-16 11:15:38,042 - INFO - Already processed images: []
+2025-10-16 11:15:38,042 - INFO - Terms shuffled to: ['Region', 'Characteristics']
+2025-10-16 11:15:38,042 - INFO -   Searching Pixabay for term: 'Region'
+2025-10-16 11:15:55,561 - INFO -     Image 1: ID=8814783, URL=https://pixabay.com/get/gc2175bc790df1632473932700f29b27b5f75de7b3628fda2cf766036a6118f166f1d864a16ecc21c26462aae70c5eab767185170578411d6a57c26b04dc3632c_1280.jpg
+2025-10-16 11:15:55,561 - INFO -     Tags: winter, lake, mountains, lake lucerne region, panorama, nature, outlook, beckenried
+2025-10-16 11:15:56,243 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-winter-8814783_150.jpg-55976d4c-5c09-4b7d-a742-f1d2617ee266.jpg
+2025-10-16 11:16:29,363 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:16:29,363 - INFO - Search terms: ['Region', 'Characteristics']
+2025-10-16 11:16:29,363 - INFO - Already processed images: []
+2025-10-16 11:16:29,364 - INFO - Terms shuffled to: ['Characteristics', 'Region']
+2025-10-16 11:16:29,364 - INFO -   Searching Pixabay for term: 'Characteristics'
+2025-10-16 11:16:30,958 - INFO -     Image 1: ID=1015469, URL=https://pixabay.com/get/ged3fe5891a0a15d016c96264c5c760e2e3343283c004b5328481946d035a010ceeefdf2bfc8d13e09edaef9b230ec39caa93b160a384019f45cd6179a9f82d49_1280.jpg
+2025-10-16 11:16:30,959 - INFO -     Tags: judaism, israel, religion, characteristic, character, shape, symbol, chandelier, icon, judaism, judaism, judaism, judaism, judaism
+2025-10-16 11:16:31,603 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-judaism-1015469_150.jpg-bd46c18d-f5d0-448f-9493-8559fffe949a.jpg
+2025-10-16 11:16:54,509 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:16:54,510 - INFO - Search terms: ['Coffee', 'Flavor']
+2025-10-16 11:16:54,513 - INFO - Already processed images: []
+2025-10-16 11:16:54,515 - INFO - Terms shuffled to: ['Flavor', 'Coffee']
+2025-10-16 11:16:54,516 - INFO -   Searching Pixabay for term: 'Flavor'
+2025-10-16 11:16:56,374 - INFO -     Image 1: ID=2548653, URL=https://pixabay.com/get/gfd6990517bfcd4b82113bb31da104d3e5663ce7645223b1cc522696d2e2f4977751cfc0c87bd610fe4b5d92e5c47bc5dca0e094f83e14f5db5c16cce87ff70ff_1280.jpg
+2025-10-16 11:16:56,374 - INFO -     Tags: spices, jars, herbs, herbs and spices, glass jars, containers, glass containers, assorted, cooking, rustic, pepper, ingredients, chili, household, natural, culinary, assortment, aromatics, spicy, dry spices, flavor, aroma, herbal, set, variation, paprika, turmeric, cumin, rosemary, herbs, herbs, herbs, herbs, herbs, cooking, cooking, cooking, herbal
+2025-10-16 11:16:57,135 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-spices-2548653_150.jpg-5033906d-494a-40c9-886a-a8ec16b1da17.jpg
+2025-10-16 11:17:20,673 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:17:20,674 - INFO - Search terms: ['Coffee', 'Flavor']
+2025-10-16 11:17:20,674 - INFO - Already processed images: []
+2025-10-16 11:17:20,675 - INFO - Terms shuffled to: ['Flavor', 'Coffee']
+2025-10-16 11:17:20,675 - INFO -   Searching Pixabay for term: 'Flavor'
+2025-10-16 11:17:22,525 - INFO -     Image 1: ID=2548653, URL=https://pixabay.com/get/g1de91e4518f46925def298870e646f569c9067923ba61e5ae2e3089fffd7e2280008bb7d61e81d562c6e7f25fb62b2ce3bb10228cb397ad525e55191f3365ae2_1280.jpg
+2025-10-16 11:17:22,526 - INFO -     Tags: spices, jars, herbs, herbs and spices, glass jars, containers, glass containers, assorted, cooking, rustic, pepper, ingredients, chili, household, natural, culinary, assortment, aromatics, spicy, dry spices, flavor, aroma, herbal, set, variation, paprika, turmeric, cumin, rosemary, herbs, herbs, herbs, herbs, herbs, cooking, cooking, cooking, herbal
+2025-10-16 11:17:23,665 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-spices-2548653_150.jpg-5c9f9bee-510a-40d5-8895-d517bee60da6.jpg
+2025-10-16 11:17:46,583 - INFO - 127.0.0.1 - - [16/Oct/2025 11:17:46] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 11:26:23,771 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 11:26:23,773 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 11:26:31,758 - INFO - ================================================================================
+2025-10-16 11:26:31,759 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 11:26:31,761 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 11:26:31,761 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 11:26:31,761 - INFO - ================================================================================
+2025-10-16 11:26:45,193 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 11:28:23,706 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:28:37,078 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:28:51,787 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:29:05,709 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:29:05,762 - INFO - Topics extracted: [['Coffee Plants', 'Tropical Regions'], ['Coffee Plants', 'Tropical Regions'], ['Crops', 'Economies'], ['Crops', 'Economies'], ['Region', 'Characteristics'], ['Region', 'Characteristics'], ['Coffee', 'Flavor'], ['Coffee', 'Flavor']]
+2025-10-16 11:29:20,590 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:29:20,591 - INFO - Search terms: ['Coffee Plants', 'Tropical Regions']
+2025-10-16 11:29:20,592 - INFO - Already processed images: []
+2025-10-16 11:29:20,594 - INFO - Terms shuffled to: ['Tropical Regions', 'Coffee Plants']
+2025-10-16 11:29:20,595 - INFO -   Searching Pixabay for term: 'Tropical Regions'
+2025-10-16 11:29:21,266 - INFO -   Searching Pixabay for term: 'Coffee Plants'
+2025-10-16 11:29:21,999 - ERROR - ERROR in make_video: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 156, in make_video_from_images_test
+    image_clip = concatenate_videoclips(image_clips, method="compose")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\moviepy\video\compositing\concatenate.py", line 75, in concatenate_videoclips
+    w = max(r[0] for r in sizes)
+ValueError: max() arg is an empty sequence
+2025-10-16 11:29:22,018 - INFO - 127.0.0.1 - - [16/Oct/2025 11:29:22] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-16 11:30:42,874 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 11:30:42,875 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 11:32:16,647 - INFO - ================================================================================
+2025-10-16 11:32:16,647 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 11:32:16,648 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 11:32:16,648 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 11:32:16,649 - INFO - ================================================================================
+2025-10-16 11:32:25,668 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 11:32:40,906 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:32:54,301 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:33:08,044 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:33:22,772 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:33:22,778 - INFO - Topics extracted: [['Coffee', 'Regions'], ['Coffee', 'Regions'], ['Economies', 'Crops'], ['Economies', 'Crops'], ['Region', 'Characteristics'], ['Region', 'Characteristics'], ['Coffee', 'Colombian Beans'], ['Coffee', 'Colombian Beans']]
+2025-10-16 11:33:34,734 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:33:34,736 - INFO - Search terms: ['Coffee', 'Regions']
+2025-10-16 11:33:34,736 - INFO - Already processed images: []
+2025-10-16 11:33:34,736 - INFO - Terms shuffled to: ['Coffee', 'Regions']
+2025-10-16 11:33:34,736 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 11:33:35,209 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/g99a83d638397efdd9db7e855c985b4e5640879ddf5719a90f32a5233417348e0e6ad944ede4dbb188c226f99535a9571571084879fb6891818a8fe8abf99052b_1280.jpg
+2025-10-16 11:33:35,209 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 11:33:35,658 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-2e79c9e7-b2b0-4f4b-999b-94a47fea94ed.jpg
+2025-10-16 11:34:12,551 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:34:12,553 - INFO - Search terms: ['Coffee', 'Regions']
+2025-10-16 11:34:12,554 - INFO - Already processed images: []
+2025-10-16 11:34:12,555 - INFO - Terms shuffled to: ['Coffee', 'Regions']
+2025-10-16 11:34:12,556 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 11:34:13,092 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/g978bdb9d93cdac72de0853f7265bd973b7c3583678f5774e6a4294eddcb61c5b70e77177f2d5addb07af2cb4088d1b24f82f60f695dc21bd0e226e83aadbedc3_1280.jpg
+2025-10-16 11:34:13,092 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 11:34:13,534 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-be4f4a63-b463-455e-8dfd-968eeeaf0c51.jpg
+2025-10-16 11:35:03,447 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:35:03,448 - INFO - Search terms: ['Economies', 'Crops']
+2025-10-16 11:35:03,450 - INFO - Already processed images: []
+2025-10-16 11:35:03,451 - INFO - Terms shuffled to: ['Economies', 'Crops']
+2025-10-16 11:35:03,451 - INFO -   Searching Pixabay for term: 'Economies'
+2025-10-16 11:35:04,031 - INFO -     Image 1: ID=680572, URL=https://pixabay.com/get/g03b7f9d7c8f8948177170576a04bf5b9283060fac8517a7172f3fe9d5a7623f0e565c134a91e4e5dc7fb2e6c7a1244fee6e4933c4df161aa27f59025438dcc2c_1280.jpg
+2025-10-16 11:35:04,031 - INFO -     Tags: analysis, pay, business people, meeting, banks, stock exchange, trading floor, dollar, euro, finance, financial crisis, financial world, business, business dealings, win, capital, economy, loans, politics, pension, recession, speculation, loss, delivery date, forward business, world economy, economic crisis, stock exchange, economy, economy, economy, economy, economy, politics, politics, recession, recession, recession
+2025-10-16 11:35:04,531 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-analysis-680572_150.jpg-307bac8d-5e22-48c7-b9b8-ffd9a9ee7a8a.jpg
+2025-10-16 11:35:31,789 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:35:31,790 - INFO - Search terms: ['Economies', 'Crops']
+2025-10-16 11:35:31,791 - INFO - Already processed images: []
+2025-10-16 11:35:31,791 - INFO - Terms shuffled to: ['Economies', 'Crops']
+2025-10-16 11:35:31,793 - INFO -   Searching Pixabay for term: 'Economies'
+2025-10-16 11:35:32,204 - INFO -     Image 1: ID=680572, URL=https://pixabay.com/get/gf2d9434f182efa6c2352598316b43ef0907b81ade6085d92ca0bddcc191b72078834cc9140f27da38b248e60723ddb5ebcc84c4fac42a8064e12838c0f454a07_1280.jpg
+2025-10-16 11:35:32,204 - INFO -     Tags: analysis, pay, business people, meeting, banks, stock exchange, trading floor, dollar, euro, finance, financial crisis, financial world, business, business dealings, win, capital, economy, loans, politics, pension, recession, speculation, loss, delivery date, forward business, world economy, economic crisis, stock exchange, economy, economy, economy, economy, economy, politics, politics, recession, recession, recession
+2025-10-16 11:35:32,776 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-analysis-680572_150.jpg-31900b05-cea2-4bea-822d-471892f52cdc.jpg
+2025-10-16 11:36:12,330 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:36:12,330 - INFO - Search terms: ['Region', 'Characteristics']
+2025-10-16 11:36:12,332 - INFO - Already processed images: []
+2025-10-16 11:36:12,332 - INFO - Terms shuffled to: ['Characteristics', 'Region']
+2025-10-16 11:36:12,333 - INFO -   Searching Pixabay for term: 'Characteristics'
+2025-10-16 11:36:13,238 - INFO -     Image 1: ID=1495302, URL=https://pixabay.com/get/gcc3f349d9afa1d1f0bc774781f91be026231ba5d2db6e408c7ce05d45b81c278919413f0226b7bcb58e60cdc823ae54fb999652b8789a121e4c0358f8dc00fd2_1280.jpg
+2025-10-16 11:36:13,241 - INFO -     Tags: brand, symbol, bmw, isetta, character, characteristic, label, logo, bmw, bmw, bmw, bmw, bmw
+2025-10-16 11:36:13,861 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-brand-1495302_150.jpg-7a077028-6f19-465c-80ba-ae872ece8969.jpg
+2025-10-16 11:36:48,426 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:36:48,427 - INFO - Search terms: ['Region', 'Characteristics']
+2025-10-16 11:36:48,428 - INFO - Already processed images: []
+2025-10-16 11:36:48,428 - INFO - Terms shuffled to: ['Characteristics', 'Region']
+2025-10-16 11:36:48,429 - INFO -   Searching Pixabay for term: 'Characteristics'
+2025-10-16 11:36:49,141 - INFO -     Image 1: ID=1495302, URL=https://pixabay.com/get/ga34c40b67aa98b304d894907bfa4012d85851998d9628dc630d4abb9dee156c6613556751bfd6866d8893763af0fe423d7611efb1837e9dd43ee9464412d10a4_1280.jpg
+2025-10-16 11:36:49,141 - INFO -     Tags: brand, symbol, bmw, isetta, character, characteristic, label, logo, bmw, bmw, bmw, bmw, bmw
+2025-10-16 11:36:49,805 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-brand-1495302_150.jpg-fbbc1da0-c7b4-452c-832c-ca03d29f1fc8.jpg
+2025-10-16 11:37:21,065 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:37:21,066 - INFO - Search terms: ['Coffee', 'Colombian Beans']
+2025-10-16 11:37:21,066 - INFO - Already processed images: []
+2025-10-16 11:37:21,067 - INFO - Terms shuffled to: ['Coffee', 'Colombian Beans']
+2025-10-16 11:37:21,067 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 11:37:21,431 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/g1c20de608073855d2f132de11f559dcdfe652626dd1b87d7d2068c127e05f04bf87c40526c0bbdcefca8a3a31884c74ed07c0372d8f9ea4d55d7cf1b01caafd0_1280.jpg
+2025-10-16 11:37:21,431 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 11:37:22,092 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-573c55d4-92e2-4baf-af56-c383e2318aa8.jpg
+2025-10-16 11:38:02,400 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:38:02,400 - INFO - Search terms: ['Coffee', 'Colombian Beans']
+2025-10-16 11:38:02,401 - INFO - Already processed images: []
+2025-10-16 11:38:02,401 - INFO - Terms shuffled to: ['Coffee', 'Colombian Beans']
+2025-10-16 11:38:02,401 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 11:38:02,793 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/ge315dcc348b9320c8abafacb540726f7c39af76f0813628c259281d6e229cd49c57cdf5b573fa141c3124143a2f597b06426e8bff8a4bc06b5309154cb3e473c_1280.jpg
+2025-10-16 11:38:02,794 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 11:38:03,339 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-1917e01d-f1d6-4ce1-9849-5d44d15181dc.jpg
+2025-10-16 11:38:45,148 - INFO - 127.0.0.1 - - [16/Oct/2025 11:38:45] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 11:43:02,301 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 11:43:02,303 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 11:43:20,414 - INFO - ================================================================================
+2025-10-16 11:43:20,415 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 11:43:20,415 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 11:43:20,415 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 11:43:20,415 - INFO - ================================================================================
+2025-10-16 11:43:26,029 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 11:44:43,914 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:44:59,085 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:45:13,381 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:45:26,637 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 11:45:26,645 - INFO - Topics extracted: [['Coffee', 'Regions'], ['Economies', 'Crops'], ['Region', 'Characteristics'], ['Coffee', 'Colombian Beans']]
+2025-10-16 11:45:38,407 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:45:38,407 - INFO - Search terms: ['Coffee', 'Regions']
+2025-10-16 11:45:38,408 - INFO - Already processed images: []
+2025-10-16 11:45:38,408 - INFO - Terms shuffled to: ['Regions', 'Coffee']
+2025-10-16 11:45:38,409 - INFO -   Searching Pixabay for term: 'Regions'
+2025-10-16 11:45:39,036 - INFO -     Image 1: ID=8814783, URL=https://pixabay.com/get/g0b5b3b2eb24f8d532e57409e258af642a7f0a25c9d77dac4bb5e76e7c45dfa7219b7bf8b906af7a3fbb217f3acf8cc91282ddb0ee43c935445e9c551fcff8cdf_1280.jpg
+2025-10-16 11:45:39,037 - INFO -     Tags: winter, lake, mountains, lake lucerne region, panorama, nature, outlook, beckenried
+2025-10-16 11:45:39,648 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-winter-8814783_150.jpg-6f73e039-859f-41b7-bdbb-f153fe5a8536.jpg
+2025-10-16 11:46:51,444 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:46:51,445 - INFO - Search terms: ['Economies', 'Crops']
+2025-10-16 11:46:51,447 - INFO - Already processed images: []
+2025-10-16 11:46:51,448 - INFO - Terms shuffled to: ['Crops', 'Economies']
+2025-10-16 11:46:51,449 - INFO -   Searching Pixabay for term: 'Crops'
+2025-10-16 11:46:51,991 - INFO -     Image 1: ID=5447847, URL=https://pixabay.com/get/gad90bc2d331044cc4ffa0f16d9198c297417081dc1d43d923a37e39b408ddc2e31a7e4ddd854e2561ea514bfdd1c59dc37cc74ca30db99a3b415d08c3e1be6ca_1280.jpg
+2025-10-16 11:46:51,991 - INFO -     Tags: rye, grain, rye field, nature, spike, crop, food, rye, rye, rye, rye, rye
+2025-10-16 11:46:52,415 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-rye-5447847_150.jpg-807dfa93-2282-46fa-a2fb-e91cfd45cb09.jpg
+2025-10-16 11:47:48,379 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:47:48,380 - INFO - Search terms: ['Region', 'Characteristics']
+2025-10-16 11:47:48,380 - INFO - Already processed images: []
+2025-10-16 11:47:48,381 - INFO - Terms shuffled to: ['Characteristics', 'Region']
+2025-10-16 11:47:48,381 - INFO -   Searching Pixabay for term: 'Characteristics'
+2025-10-16 11:47:49,355 - INFO -     Image 1: ID=1015469, URL=https://pixabay.com/get/g78476662056adc2de886ab635aca7b8f7d1b88cba627b12609ce4a1ad8d8b2a5c9795c500f7391a61266546a79e307fa224c3dcfd53708b264a9998592055078_1280.jpg
+2025-10-16 11:47:49,357 - INFO -     Tags: judaism, israel, religion, characteristic, character, shape, symbol, chandelier, icon, judaism, judaism, judaism, judaism, judaism
+2025-10-16 11:47:49,857 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-judaism-1015469_150.jpg-951c8deb-dfe0-4b9e-9f84-81d7536cdde0.jpg
+2025-10-16 11:48:51,422 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 11:48:51,423 - INFO - Search terms: ['Coffee', 'Colombian Beans']
+2025-10-16 11:48:51,423 - INFO - Already processed images: []
+2025-10-16 11:48:51,424 - INFO - Terms shuffled to: ['Coffee', 'Colombian Beans']
+2025-10-16 11:48:51,424 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 11:48:51,781 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/ge4d7dc2e5ac82dc2e36605ae0edfe40f5be695d8bfd891f211bf61ee6d6d4c9c50f00143c506bbfa4619ce1d83aad9990a7124d444bfaccb3d524bd58c570691_1280.jpg
+2025-10-16 11:48:51,781 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 11:48:52,387 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-82f7fc81-292f-4f68-afe9-1ba94326645b.jpg
+2025-10-16 11:50:04,590 - INFO - 127.0.0.1 - - [16/Oct/2025 11:50:04] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 12:02:02,358 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 12:02:02,359 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 12:03:39,866 - INFO - ================================================================================
+2025-10-16 12:03:39,867 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 12:03:39,867 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 12:03:39,868 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 12:03:39,868 - INFO - ================================================================================
+2025-10-16 12:03:46,605 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 12:04:56,646 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:05:39,072 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:05:51,713 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:06:04,453 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:06:18,310 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:06:18,331 - INFO - Topics extracted: [['Tropical Regions', 'Mountainous Terrain'], ['Ethiopia', 'Regional Characteristics'], ['Regional Characteristics', 'Altitude'], ['Colombian Beans', 'Floral Notes']]
+2025-10-16 12:06:28,479 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 12:06:28,480 - INFO - Search terms: ['Tropical Regions', 'Mountainous Terrain']
+2025-10-16 12:06:28,481 - INFO - Already processed images: []
+2025-10-16 12:06:28,481 - INFO - Terms shuffled to: ['Tropical Regions', 'Mountainous Terrain']
+2025-10-16 12:06:28,481 - INFO -   Searching Pixabay for term: 'Tropical Regions'
+2025-10-16 12:06:28,981 - INFO -   Searching Pixabay for term: 'Mountainous Terrain'
+2025-10-16 12:06:29,605 - ERROR - ERROR in make_video: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 156, in make_video_from_images_test
+    image_clip = concatenate_videoclips(image_clips, method="compose")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\moviepy\video\compositing\concatenate.py", line 75, in concatenate_videoclips
+    w = max(r[0] for r in sizes)
+ValueError: max() arg is an empty sequence
+2025-10-16 12:06:29,622 - INFO - 127.0.0.1 - - [16/Oct/2025 12:06:29] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-16 12:09:44,258 - INFO - ================================================================================
+2025-10-16 12:09:44,258 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 12:09:44,259 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 12:09:44,259 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 12:09:44,259 - INFO - ================================================================================
+2025-10-16 12:09:50,216 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 12:10:34,209 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:11:16,626 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:11:29,466 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:11:42,873 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:11:55,055 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:11:55,057 - INFO - Topics extracted: [['Tropical Regions', 'Mountainous Terrain'], ['Ethiopia', 'Regional Characteristics'], ['Regional Characteristics', 'Altitude'], ['Colombian Beans', 'Floral Notes']]
+2025-10-16 12:12:01,902 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 12:12:01,902 - INFO - Search terms: ['Tropical Regions', 'Mountainous Terrain']
+2025-10-16 12:12:01,903 - INFO - Already processed images: []
+2025-10-16 12:12:01,903 - INFO - Terms shuffled to: ['Tropical Regions', 'Mountainous Terrain']
+2025-10-16 12:12:01,903 - INFO -   Searching Pixabay for term: 'Tropical Regions'
+2025-10-16 12:12:02,279 - INFO -   Searching Pixabay for term: 'Mountainous Terrain'
+2025-10-16 12:12:02,838 - ERROR - ERROR in make_video: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 156, in make_video_from_images_test
+    image_clip = concatenate_videoclips(image_clips, method="compose")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\moviepy\video\compositing\concatenate.py", line 75, in concatenate_videoclips
+    w = max(r[0] for r in sizes)
+ValueError: max() arg is an empty sequence
+2025-10-16 12:12:02,844 - INFO - 127.0.0.1 - - [16/Oct/2025 12:12:02] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-16 12:25:04,018 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 12:25:04,019 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 12:25:50,007 - INFO - ================================================================================
+2025-10-16 12:25:50,007 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 12:25:50,007 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 12:25:50,007 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 12:25:50,009 - INFO - ================================================================================
+2025-10-16 12:25:54,791 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 12:27:07,591 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:27:18,593 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:27:32,026 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:27:48,573 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:27:48,641 - INFO - Topics extracted: [['Coffee Plants', 'Tropical Regions'], ['Crops', 'Economies'], ['Region', 'Characteristics'], ['Coffee', 'Flavor']]
+2025-10-16 12:28:00,951 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 12:28:00,951 - INFO - Search terms: ['Coffee Plants', 'Tropical Regions']
+2025-10-16 12:28:00,951 - INFO - Already processed images: []
+2025-10-16 12:28:00,952 - INFO - Terms shuffled to: ['Tropical Regions', 'Coffee Plants']
+2025-10-16 12:28:00,952 - INFO -   Searching Pixabay for term: 'Tropical Regions'
+2025-10-16 12:28:01,465 - INFO -   Searching Pixabay for term: 'Coffee Plants'
+2025-10-16 12:28:03,689 - ERROR - ERROR in make_video: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 156, in make_video_from_images_test
+    image_clip = concatenate_videoclips(image_clips, method="compose")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\moviepy\video\compositing\concatenate.py", line 75, in concatenate_videoclips
+    w = max(r[0] for r in sizes)
+ValueError: max() arg is an empty sequence
+2025-10-16 12:28:03,699 - INFO - 127.0.0.1 - - [16/Oct/2025 12:28:03] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-16 12:29:23,268 - INFO - ================================================================================
+2025-10-16 12:29:23,269 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 12:29:23,269 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 12:29:23,269 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 12:29:23,269 - INFO - ================================================================================
+2025-10-16 12:29:27,956 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 12:29:38,861 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:29:50,133 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 12:29:50,136 - INFO - Topics extracted: [['Coffee', 'Regions'], ['Economies', 'Crops']]
+2025-10-16 12:29:53,681 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 12:29:53,681 - INFO - Search terms: ['Coffee', 'Regions']
+2025-10-16 12:29:53,681 - INFO - Already processed images: []
+2025-10-16 12:29:53,682 - INFO - Terms shuffled to: ['Coffee', 'Regions']
+2025-10-16 12:29:53,682 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 12:29:54,057 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/g5fea8b7911dc0873a33fbbc7ab135457ee597d4876e155fa43b8e5f9d78c4030624545c6cf9f405af8981fa786633bb184e5df40867f429b0721c721a21e2cf8_1280.jpg
+2025-10-16 12:29:54,057 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 12:29:54,553 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-0f90f561-7754-46d9-a924-dd579812c5d9.jpg
+2025-10-16 12:31:08,523 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 12:31:08,523 - INFO - Search terms: ['Economies', 'Crops']
+2025-10-16 12:31:08,524 - INFO - Already processed images: []
+2025-10-16 12:31:08,524 - INFO - Terms shuffled to: ['Economies', 'Crops']
+2025-10-16 12:31:08,525 - INFO -   Searching Pixabay for term: 'Economies'
+2025-10-16 12:31:09,384 - INFO -     Image 1: ID=626881, URL=https://pixabay.com/get/g85fb53342eda0e64bd5c79f5d51ab32510b3f42eefc47c4c9f8a7f721c9a371235f975a9eb6458219df2954b0ff5375b0993d2ea0217ab1e6f801c80c0617c77_1280.jpg
+2025-10-16 12:31:09,384 - INFO -     Tags: analysis, pay, business people, meeting, banks, stock exchange, trading floor, dollar, euro, finance, financial crisis, financial world, business, business dealings, win, capital, economy, loans, politics, pension, recession, speculation, loss, delivery date, forward business, world economy, economic crisis, stock exchange, finance, business, business, economy, economy, economy, economy, politics, politics, politics, politics, politics, recession, loss, loss
+2025-10-16 12:31:10,162 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-analysis-626881_150.jpg-557863ee-294b-4483-a57c-d2cab3d95544.jpg
+2025-10-16 12:31:57,332 - INFO - 127.0.0.1 - - [16/Oct/2025 12:31:57] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 15:15:41,289 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 15:15:41,290 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 15:18:35,591 - INFO - ================================================================================
+2025-10-16 15:18:35,592 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 15:18:35,592 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 15:18:35,592 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 15:18:35,592 - INFO - ================================================================================
+2025-10-16 15:18:40,954 - INFO - Metadata filtered to size 'horizontal': 8137 images available
+2025-10-16 15:20:19,060 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 15:20:33,485 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 15:20:33,535 - INFO - Topics extracted: [['Coffee', 'Regions'], ['Economies', 'Crops']]
+2025-10-16 15:20:41,308 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 15:20:41,308 - INFO - Search terms: ['Coffee', 'Regions']
+2025-10-16 15:20:41,309 - INFO - Already processed images: []
+2025-10-16 15:20:41,309 - INFO - Terms shuffled to: ['Regions', 'Coffee']
+2025-10-16 15:20:41,310 - INFO -   Searching Pixabay for term: 'Regions'
+2025-10-16 15:20:42,067 - INFO -     Image 1: ID=8814783, URL=https://pixabay.com/get/gc91c8aafe696eeddd07a5f0a8930605bb61f37f1f24e53394a27da0434deda28c7460eab5ea253a6812b2ebcef7de2270521b0f397bc5112012978b2cf7822cb_1280.jpg
+2025-10-16 15:20:42,067 - INFO -     Tags: winter, lake, mountains, lake lucerne region, panorama, nature, outlook, beckenried
+2025-10-16 15:20:42,753 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-winter-8814783_150.jpg-13d6ecfa-8d9e-4c99-a90e-2a7226630fc7.jpg
+2025-10-16 15:21:47,670 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 15:21:47,671 - INFO - Search terms: ['Economies', 'Crops']
+2025-10-16 15:21:47,671 - INFO - Already processed images: []
+2025-10-16 15:21:47,671 - INFO - Terms shuffled to: ['Economies', 'Crops']
+2025-10-16 15:21:47,671 - INFO -   Searching Pixabay for term: 'Economies'
+2025-10-16 15:21:48,444 - INFO -     Image 1: ID=5241253, URL=https://pixabay.com/get/g4ba8d0534a8fe374cda9fa75beab5de156d6f9418670bb14ef6a7469ff6b01c8c612a3daab63fb05d56104e716a7520f55b046e72dc31ffd9951e2fc2741507f_1280.jpg
+2025-10-16 15:21:48,445 - INFO -     Tags: investment, concept, business, finance, growth, plant, money, wealth, grow, green, coin, success, tree, financial, cash, currency, profit, leaf, growing, nature, banking, economy, bank, investment, business, business, growth, growth, growth, growth, growth, plant, plant, money, money, grow, success, success, success, tree
+2025-10-16 15:21:49,152 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-investment-5241253_150.jpg-566dede4-6f88-4831-8dd3-8382f6aaa38f.jpg
+2025-10-16 15:22:38,615 - INFO - 127.0.0.1 - - [16/Oct/2025 15:22:38] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 15:37:35,159 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 15:37:35,160 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 15:37:42,005 - INFO - ================================================================================
+2025-10-16 15:37:42,005 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 15:37:42,007 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 15:37:42,007 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 15:37:42,008 - INFO - ================================================================================
+2025-10-16 15:37:47,149 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 15:39:37,211 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 15:40:03,934 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 15:40:03,985 - ERROR - ERROR in make_video: 'terms'
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'terms'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 76, in make_video
+    logger.info(f"Topics extracted: {df['terms'].tolist()}")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'terms'
+2025-10-16 15:40:04,204 - INFO - 127.0.0.1 - - [16/Oct/2025 15:40:04] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-16 16:29:31,376 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 16:29:31,377 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 16:32:14,763 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 16:32:14,764 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 16:32:20,811 - INFO - ================================================================================
+2025-10-16 16:32:20,811 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 16:32:20,812 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 16:32:20,812 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 16:32:20,812 - INFO - ================================================================================
+2025-10-16 16:32:25,891 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 16:33:52,878 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 16:34:06,165 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 16:34:06,182 - INFO - Topics extracted: [['Coffee', 'Regions'], ['Economies', 'Crops']]
+2025-10-16 16:34:13,497 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 16:34:13,497 - INFO - Search terms: ['Coffee', 'Regions']
+2025-10-16 16:34:13,498 - INFO - Already processed images: []
+2025-10-16 16:34:13,498 - INFO - Terms shuffled to: ['Coffee', 'Regions']
+2025-10-16 16:34:13,499 - INFO -   Searching Pixabay for term: 'Coffee'
+2025-10-16 16:34:14,437 - INFO -     Image 1: ID=2714970, URL=https://pixabay.com/get/gec3bd90eecc089d8af632a99c62c712685c4d2b4ea53e87362862d9fbe259ede7e24c2166976589d18bf642f1ea95082ae91a0f12f6d5316ec139d2f88f8c331_1280.jpg
+2025-10-16 16:34:14,438 - INFO -     Tags: coffee, coffee cup, cup, drink, beans, coffee beans, wooden table, still life, cafe, aroma, coffee break, black coffee, brewed coffee, hot coffee, caffeine, morning coffee, coffee, coffee, coffee, coffee, coffee
+2025-10-16 16:34:15,174 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-coffee-2714970_150.jpg-d796c6ce-de8d-48b5-9861-e3e508e2f5e5.jpg
+2025-10-16 16:35:34,092 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 16:35:34,095 - INFO - Search terms: ['Economies', 'Crops']
+2025-10-16 16:35:34,096 - INFO - Already processed images: []
+2025-10-16 16:35:34,103 - INFO - Terms shuffled to: ['Crops', 'Economies']
+2025-10-16 16:35:34,104 - INFO -   Searching Pixabay for term: 'Crops'
+2025-10-16 16:35:34,633 - INFO -     Image 1: ID=5447847, URL=https://pixabay.com/get/ge68da40ebaace88bf5654f77ef6da112948807d8e9fd9cff827853daa1c3f26f7157fb9982469d81152e89e2afcbbd824a8be5ede85fc9b2620b25f390e3d77b_1280.jpg
+2025-10-16 16:35:34,634 - INFO -     Tags: rye, grain, rye field, nature, spike, crop, food, rye, rye, rye, rye, rye
+2025-10-16 16:35:35,297 - INFO -   1. C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\images\image-rye-5447847_150.jpg-ab4bf49b-ebd2-41b0-b17f-92b6e1e13bb0.jpg
+2025-10-16 16:38:07,356 - INFO - 127.0.0.1 - - [16/Oct/2025 16:38:07] "POST /make_video_parts HTTP/1.1" 200 -
+2025-10-16 16:44:05,529 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-16 16:44:05,530 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 16:44:19,493 - INFO - ================================================================================
+2025-10-16 16:44:19,495 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-16 16:44:19,495 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-16 16:44:19,496 - INFO - Video Type: image, Size: 1920x1080
+2025-10-16 16:44:19,496 - INFO - ================================================================================
+2025-10-16 16:44:24,589 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-16 16:46:01,855 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 16:46:14,249 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-16 16:46:14,306 - INFO - Topics extracted: [['Coffee Plants', 'Tropical Regions'], ['Economies', 'Crops']]
+2025-10-16 16:46:18,046 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-16 16:46:18,047 - INFO - Search terms: ['Coffee Plants', 'Tropical Regions']
+2025-10-16 16:46:18,048 - INFO - Already processed images: []
+2025-10-16 16:46:18,049 - INFO - Terms shuffled to: ['Tropical Regions', 'Coffee Plants']
+2025-10-16 16:46:18,049 - INFO -   Searching Pixabay for term: 'Tropical Regions'
+2025-10-16 16:46:23,079 - INFO -   Searching Pixabay for term: 'Coffee Plants'
+2025-10-16 16:46:25,210 - ERROR - ERROR in make_video: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 156, in make_video_from_images_test
+    image_clip = concatenate_videoclips(image_clips, method="compose")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\moviepy\video\compositing\concatenate.py", line 75, in concatenate_videoclips
+    w = max(r[0] for r in sizes)
+ValueError: max() arg is an empty sequence
+2025-10-16 16:46:25,246 - INFO - 127.0.0.1 - - [16/Oct/2025 16:46:25] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-17 10:34:05,855 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-17 10:34:05,856 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 10:34:16,913 - INFO - ================================================================================
+2025-10-17 10:34:16,915 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-17 10:34:16,916 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-17 10:34:16,916 - INFO - Video Type: image, Size: 1920x1080
+2025-10-17 10:34:16,917 - INFO - ================================================================================
+2025-10-17 10:34:28,597 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-17 10:36:05,853 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-17 10:36:22,158 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-17 10:36:22,172 - INFO - Topics extracted: [['Coffee Plants', 'Tropical Regions'], ['Crops', 'Economies']]
+2025-10-17 10:36:25,861 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-17 10:36:25,862 - INFO - Search terms: ['Coffee Plants', 'Tropical Regions']
+2025-10-17 10:36:25,863 - INFO - Already processed images: []
+2025-10-17 10:36:25,864 - INFO - Terms shuffled to: ['Coffee Plants', 'Tropical Regions']
+2025-10-17 10:36:25,865 - INFO -   Searching Pixabay for term: 'Coffee Plants'
+2025-10-17 10:36:39,386 - INFO -   Searching Pixabay for term: 'Tropical Regions'
+2025-10-17 10:36:43,184 - ERROR - ERROR in make_video: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 156, in make_video_from_images_test
+    image_clip = concatenate_videoclips(image_clips, method="compose")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\moviepy\video\compositing\concatenate.py", line 75, in concatenate_videoclips
+    w = max(r[0] for r in sizes)
+ValueError: max() arg is an empty sequence
+2025-10-17 10:36:43,284 - INFO - 127.0.0.1 - - [17/Oct/2025 10:36:43] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-17 10:40:28,142 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-17 10:40:28,142 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 10:40:47,859 - INFO - ================================================================================
+2025-10-17 10:40:47,859 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-17 10:40:47,860 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-17 10:40:47,861 - INFO - Video Type: image, Size: 1920x1080
+2025-10-17 10:40:47,863 - INFO - ================================================================================
+2025-10-17 10:40:54,026 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-17 10:41:10,891 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-17 10:41:24,099 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-17 10:41:24,107 - INFO - Topics extracted: [['Coffee Plants', 'Tropical Regions'], ['Economies', 'Crops']]
+2025-10-17 10:41:32,017 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-17 10:41:32,017 - INFO - Search terms: ['Coffee Plants', 'Tropical Regions']
+2025-10-17 10:41:32,018 - INFO - Already processed images: []
+2025-10-17 10:41:32,018 - INFO - Terms shuffled to: ['Coffee Plants', 'Tropical Regions']
+2025-10-17 10:41:32,019 - INFO -   Searching Pixabay for term: 'Coffee Plants'
+2025-10-17 10:41:32,570 - INFO -   Searching Pixabay for term: 'Tropical Regions'
+2025-10-17 10:41:33,170 - ERROR - ERROR in make_video: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 156, in make_video_from_images_test
+    image_clip = concatenate_videoclips(image_clips, method="compose")
+  File "C:\Users\admin\Desktop\ttv\epi-ttv\.venv\lib\site-packages\moviepy\video\compositing\concatenate.py", line 75, in concatenate_videoclips
+    w = max(r[0] for r in sizes)
+ValueError: max() arg is an empty sequence
+2025-10-17 10:41:33,184 - INFO - 127.0.0.1 - - [17/Oct/2025 10:41:33] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -
+2025-10-17 10:46:47,675 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.7.55:5002
+2025-10-17 10:46:47,677 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 10:46:54,604 - INFO - ================================================================================
+2025-10-17 10:46:54,605 - INFO - NEW VIDEO REQUEST - User: kawtar, Video ID: video_kawtar
+2025-10-17 10:46:54,605 - INFO - Text: The journey of coffee begins in tropical regions around the world, where coffee plants thrive in the...
+2025-10-17 10:46:54,605 - INFO - Video Type: image, Size: 1920x1080
+2025-10-17 10:46:54,606 - INFO - ================================================================================
+2025-10-17 10:46:59,714 - INFO - Metadata filtered to size 'horizontal': 9200 images available
+2025-10-17 10:47:18,554 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-17 10:47:32,089 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-17 10:47:32,102 - INFO - Topics extracted: [['Coffee Plants', 'Tropical Regions'], ['Economies', 'Crops']]
+2025-10-17 10:47:39,193 - INFO - 
+--- SEARCHING FOR 1 IMAGES ---
+2025-10-17 10:47:39,193 - INFO - Search terms: ['Coffee Plants', 'Tropical Regions']
+2025-10-17 10:47:39,194 - INFO - Already processed images: [['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-winter-8814783_150.jpg-6f73e039-859f-41b7-bdbb-f153fe5a8536.jpg'], ['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-rye-5447847_150.jpg-807dfa93-2282-46fa-a2fb-e91cfd45cb09.jpg'], ['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-judaism-1015469_150.jpg-951c8deb-dfe0-4b9e-9f84-81d7536cdde0.jpg'], ['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-coffee-2714970_150.jpg-82f7fc81-292f-4f68-afe9-1ba94326645b.jpg'], ['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-coffee-2714970_150.jpg-0f90f561-7754-46d9-a924-dd579812c5d9.jpg'], ['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-analysis-626881_150.jpg-557863ee-294b-4483-a57c-d2cab3d95544.jpg'], ['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-winter-8814783_150.jpg-13d6ecfa-8d9e-4c99-a90e-2a7226630fc7.jpg'], ['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-investment-5241253_150.jpg-566dede4-6f88-4831-8dd3-8382f6aaa38f.jpg'], ['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-coffee-2714970_150.jpg-d796c6ce-de8d-48b5-9861-e3e508e2f5e5.jpg'], ['C:\\Users\\admin\\Desktop\\ttv\\epi-ttv\\API_US388\\images\\image-rye-5447847_150.jpg-ab4bf49b-ebd2-41b0-b17f-92b6e1e13bb0.jpg']]
+2025-10-17 10:47:39,196 - INFO - Terms shuffled to: ['Tropical Regions', 'Coffee Plants']
+2025-10-17 10:47:39,198 - INFO -   Searching Pixabay for term: 'Tropical Regions'
+2025-10-17 10:47:39,199 - ERROR - ERROR in make_video: 'list' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\main.py", line 82, in make_video
+    topic_clips = make_video_from_images_test(s3,language,df,user_id,video_id, pixabay_api_key, metadata,final_video_width, final_video_height, sub,animation)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\image.py", line 113, in make_video_from_images_test
+    image_path_list = search_images_for_dataframe_pixabay_video(
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\scrapping_api_image.py", line 359, in search_images_for_dataframe_pixabay_video
+    images = search_pixabay_images(term, api_key, processed_image_paths)
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\scrapping_api_image.py", line 124, in search_pixabay_images
+    processed_image_paths=[path.split('.jpg')[0].replace("datalake_media/image-", "") + '.jpg' if '.jpg' in path else path.replace("datalake_media/image-", "") for path in processed_image_paths]
+  File "c:\Users\admin\Desktop\ttv\epi-ttv\API_US388\scrapping_api_image.py", line 124, in <listcomp>
+    processed_image_paths=[path.split('.jpg')[0].replace("datalake_media/image-", "") + '.jpg' if '.jpg' in path else path.replace("datalake_media/image-", "") for path in processed_image_paths]
+AttributeError: 'list' object has no attribute 'replace'
+2025-10-17 10:47:39,219 - INFO - 127.0.0.1 - - [17/Oct/2025 10:47:39] "[35m[1mPOST /make_video_parts HTTP/1.1[0m" 500 -

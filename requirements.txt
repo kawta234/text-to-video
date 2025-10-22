@@ -1,0 +1,14 @@
+boto3
+pandas
+nltk
+requests
+moviepy
+opencv-python
+keybert
+transformers[torch]
+pillow
+scikit-learn
+langdetect
+
+gensim
+scipy==1.12.0
