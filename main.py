@@ -24,25 +24,13 @@ change_settings({"IMAGEMAGICK_BINARY": r"C:\Users\admin\Downloads\ImageMagick-7.
 
 import spacy.cli.download
 
-# nltk.download('punkt')
-# nltk.download('stopwords')
-# spacy.cli.download("en_core_web_md")
-# spacy.cli.download("en_core_web_sm")
-# nltk.download('averaged_perceptron_tagger')
-# nltk.download('wordnet')
+
 
 
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "http://localhost:4200"}})
-# CORS(app, resources={
-#     r"/api/*": {
-#         "origins": 
-#             "http://192.168.7.59", 
-#             "http://localhost:4200" # Replace with your allowed IP
-#         ]
-#     }
-# })
+
 
 
 metadata = pd.read_excel(r"C:\Users\admin\Desktop\ttv\epi-ttv\API_US388\new_metadata_mixkit_unsplash_pixabay-4.xlsx")

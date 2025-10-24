@@ -119,67 +119,149 @@ def lexical_similarity(word1, word2):
 
     return max_similarity
 
-def search_pixabay_images(query, api_key,processed_image_paths, per_page=3, safe_search=True):
+def search_pixabay_images(query, api_key, processed_image_paths, per_page=3, safe_search=True):
     safe_search_param = 'true' if safe_search else 'false'
-    processed_image_paths=[path.split('.jpg')[0].replace("datalake_media/image-", "") + '.jpg' if '.jpg' in path else path.replace("datalake_media/image-", "") for path in processed_image_paths]
-    print("processed_image_paths to search in pixabay:",processed_image_paths)
+    processed_image_paths = [path.split('.jpg')[0].replace("datalake_media/image-", "") + '.jpg' if '.jpg' in path else path.replace("datalake_media/image-", "") for path in processed_image_paths]
+    print("processed_image_paths to search in pixabay:", processed_image_paths)
+    
     url = f'https://pixabay.com/api/?key={api_key}&q={query}&per_page={per_page}&safesearch={safe_search_param}'
     response = requests.get(url)
+    
     if response.status_code == 200:
         hits = response.json()['hits']
         if hits:
             images = []
+            query_terms = [term.lower() for term in query.split()]  # Split query into individual terms
+            print(f"Searching for images with ALL terms: {query_terms}")
+            
             for resp in hits:
                 preview_url = resp['previewURL']
                 filename = preview_url.split('/')[-1]
-                print(filename)
-                topic_name = preview_url.split('/')[-1].split('-')[0]
-                score = lexical_similarity(query, topic_name)
-                print("Score between:", topic_name, " and ", query, " is ", score)
-                if score == 0:
-                    images=[]
-                    break
-                if score >= 0.4:
+                print(f"\nChecking: {filename}")
+                
+                # Get image tags
+                tags = resp.get('tags', '').lower()
+                tags_list = [tag.strip() for tag in tags.split(',')]
+                print(f"Image tags: {tags_list}")
+                
+                # Check if ALL query terms are present in tags
+                terms_found = []
+                for query_term in query_terms:
+                    # Check exact match in tags
+                    if query_term in tags:
+                        terms_found.append(query_term)
+                        print(f"  ✓ Found '{query_term}' in tags")
+                    else:
+                        # Check lexical similarity with each tag
+                        best_tag_score = 0
+                        best_tag = None
+                        for tag in tags_list:
+                            score = lexical_similarity(query_term, tag)
+                            if score > best_tag_score:
+                                best_tag_score = score
+                                best_tag = tag
+                        
+                        if best_tag_score >= 0.4:
+                            terms_found.append(query_term)
+                            print(f"  ✓ Found '{query_term}' similar to tag '{best_tag}' (score: {best_tag_score:.2f})")
+                        else:
+                            print(f"  ✗ '{query_term}' not found (best match: '{best_tag}' with score {best_tag_score:.2f})")
+                
+                # Calculate match percentage
+                match_percentage = len(terms_found) / len(query_terms) if query_terms else 0
+                print(f"Match: {len(terms_found)}/{len(query_terms)} terms ({match_percentage:.0%})")
+                
+                # Accept image if ALL terms are found (100% match)
+                if match_percentage == 1.0:
                     if filename not in processed_image_paths:
                         images.append(resp)
+                        print(f"✓ ACCEPTED - All terms matched!")
                     else:
-                        print("filename ",filename, 'is already used')
-                elif score <= 0.4:
-                    current_page = 1
-                    while len(images) < 1:
-                        current_page += 1
-                        new_url = f'https://pixabay.com/api/?key={api_key}&q={query}&per_page={per_page}&safesearch={safe_search_param}&page={current_page}'
-                        new_response = requests.get(new_url)
-                        if new_response.status_code == 200:
-                            new_hits = new_response.json()['hits']
-                            if not new_hits:
-                                break  
-                            for new_resp in new_hits:
-                                new_preview_url = new_resp['previewURL']
-                                new_filename = new_preview_url.split('/')[-1]
-                                print(new_filename)
-                                new_topic_name = new_preview_url.split('/')[-1].split('-')[0]
-
-                                new_score = lexical_similarity(query, new_topic_name)
-                                print("Score between:", new_topic_name, " and ", query, " is ", new_score)
-                                if new_score >= 0.4:
-                                    if new_filename not in processed_image_paths:
-                                        images.append(new_resp)
-                                    else:
-                                        print(new_filename,'file already in metadata')
-                        else:
+                        print(f"✗ Already used: {filename}")
+                else:
+                    print(f"✗ REJECTED - Not all terms matched")
+                
+                # Stop if we found enough images
+                if len(images) >= per_page:
+                    break
+            
+            # If no images found with all terms, try paginating
+            if not images:
+                print(f"\n→ No images found on page 1 with all terms. Trying more pages...")
+                current_page = 1
+                max_pages = 5  # Limit pagination to avoid too many API calls
+                
+                while len(images) < 1 and current_page < max_pages:
+                    current_page += 1
+                    print(f"\n→ Trying page {current_page}...")
+                    
+                    new_url = f'https://pixabay.com/api/?key={api_key}&q={query}&per_page={per_page}&safesearch={safe_search_param}&page={current_page}'
+                    new_response = requests.get(new_url)
+                    
+                    if new_response.status_code == 200:
+                        new_hits = new_response.json()['hits']
+                        if not new_hits:
+                            print("No more results available")
                             break
-
-            print("done scrapping")
-
+                        
+                        for new_resp in new_hits:
+                            new_preview_url = new_resp['previewURL']
+                            new_filename = new_preview_url.split('/')[-1]
+                            print(f"\nChecking: {new_filename}")
+                            
+                            # Get image tags
+                            new_tags = new_resp.get('tags', '').lower()
+                            new_tags_list = [tag.strip() for tag in new_tags.split(',')]
+                            print(f"Image tags: {new_tags_list}")
+                            
+                            # Check if ALL query terms are present
+                            new_terms_found = []
+                            for query_term in query_terms:
+                                if query_term in new_tags:
+                                    new_terms_found.append(query_term)
+                                    print(f"  ✓ Found '{query_term}' in tags")
+                                else:
+                                    best_tag_score = 0
+                                    best_tag = None
+                                    for tag in new_tags_list:
+                                        score = lexical_similarity(query_term, tag)
+                                        if score > best_tag_score:
+                                            best_tag_score = score
+                                            best_tag = tag
+                                    
+                                    if best_tag_score >= 0.4:
+                                        new_terms_found.append(query_term)
+                                        print(f"  ✓ Found '{query_term}' similar to tag '{best_tag}' (score: {best_tag_score:.2f})")
+                                    else:
+                                        print(f"  ✗ '{query_term}' not found")
+                            
+                            new_match_percentage = len(new_terms_found) / len(query_terms) if query_terms else 0
+                            print(f"Match: {len(new_terms_found)}/{len(query_terms)} terms ({new_match_percentage:.0%})")
+                            
+                            if new_match_percentage == 1.0:
+                                if new_filename not in processed_image_paths:
+                                    images.append(new_resp)
+                                    print(f"✓ ACCEPTED - All terms matched!")
+                                    break
+                                else:
+                                    print(f"✗ Already used: {new_filename}")
+                            else:
+                                print(f"✗ REJECTED - Not all terms matched")
+                        
+                        if images:
+                            break
+                    else:
+                        print("API request failed")
+                        break
+            
+            print("\ndone scrapping")
             return images
         else:
             print(f"No images found for query: {query}")
             return []
     else:
         print(f"Error: Failed to retrieve images for query: {query}")
-        return []
-   
+        return []  
 
 def google_image_search(api_key, search_engine_id, query):
     url = "https://www.googleapis.com/customsearch/v1"
@@ -340,22 +422,81 @@ import logging
 logger = logging.getLogger(__name__)
 
 def search_images_for_dataframe_pixabay_video(terms, api_key, processed_image_paths, l=1):
+   
+    """
+    Search for images using combined terms instead of individual terms.
+    
+    Args:
+        terms: List of terms to search (will be combined into one query)
+        api_key: Pixabay API key
+        processed_image_paths: List of already used image paths
+        l: Number of images to collect
+    
+    Returns:
+        List of image paths
+    """
     logger.info(f"\n--- SEARCHING FOR {l} IMAGES ---")
     logger.info(f"Search terms: {terms}")
     logger.info(f"Already processed images: {processed_image_paths}")
     
     image_dataframes = []
-    used_terms = set()
     collected_images = 0
     
-    terms_shuffled = list(terms)
-    random.shuffle(terms_shuffled)
-    logger.info(f"Terms shuffled to: {terms_shuffled}")
+    # Combine all terms into a single search query
+    combined_query = ' '.join(terms)
+    logger.info(f"Combined search query: '{combined_query}'")
     
-    for term in terms_shuffled:
-        if term not in used_terms and collected_images < l:
-            logger.info(f"  Searching Pixabay for term: '{term}'")
+    # Search with the combined query
+    logger.info(f"  Searching Pixabay for combined query: '{combined_query}'")
+    
+    images = search_pixabay_images(combined_query, api_key, processed_image_paths)
+    
+    if images:
+        logger.info(f"  ✓ Found {len(images)} images for '{combined_query}'")
+        
+        images_needed = min(l - collected_images, len(images))
+        
+        for idx, image in enumerate(images[:images_needed]):
+            # LOG IMAGE DETAILS
+            logger.info(f"    Image {idx+1}: ID={image.get('id')}, URL={image.get('largeImageURL')}")
+            logger.info(f"    Tags: {image.get('tags', 'N/A')}")
             
+            keywords = image['tags'].split(', ')
+            keywords = str(keywords)
+            df_image = create_image_dataframe([image], keywords, combined_query)
+            
+            # LOG PATH
+            if 'path_datalake' in df_image.columns:
+                img_path = df_image['path_datalake'].iloc[0]
+                logger.info(f"    ✓ Selected path: {img_path}")
+            
+            image_urls = df_image['url']
+            df_image['description'] = ""
+            df_image['keywords_description'] = str([])
+            df_image['term'] = df_image['term'].astype(str)
+            df_image['topic_name'] = df_image['name'].str.split('-').str[0].apply(lambda x: [x])
+            df_image['keywords_description'] = df_image['keywords_description'].apply(lambda x: eval(x))
+            df_image['keywords'] = df_image['keywords'].apply(lambda x: eval(x))
+            df_image['source'] = 'pixabay'
+            image_dataframes.append(df_image)
+            
+            collected_images += 1
+            
+            if collected_images >= l:
+                break
+    else:
+        logger.warning(f"  ✗ No images found for combined query: '{combined_query}'")
+        
+        # Fallback: try searching with individual terms if combined query fails
+        logger.info(f"  → Trying fallback: searching individual terms")
+        terms_shuffled = list(terms)
+        random.shuffle(terms_shuffled)
+        
+        for term in terms_shuffled:
+            if collected_images >= l:
+                break
+                
+            logger.info(f"  Fallback search for term: '{term}'")
             images = search_pixabay_images(term, api_key, processed_image_paths)
             
             if images:
@@ -364,7 +505,6 @@ def search_images_for_dataframe_pixabay_video(terms, api_key, processed_image_pa
                 images_needed = min(l - collected_images, len(images))
                 
                 for idx, image in enumerate(images[:images_needed]):
-                    # LOG IMAGE DETAILS
                     logger.info(f"    Image {idx+1}: ID={image.get('id')}, URL={image.get('largeImageURL')}")
                     logger.info(f"    Tags: {image.get('tags', 'N/A')}")
                     
@@ -372,7 +512,6 @@ def search_images_for_dataframe_pixabay_video(terms, api_key, processed_image_pa
                     keywords = str(keywords)
                     df_image = create_image_dataframe([image], keywords, term)
                     
-                    # LOG PATH
                     if 'path_datalake' in df_image.columns:
                         img_path = df_image['path_datalake'].iloc[0]
                         logger.info(f"    ✓ Selected path: {img_path}")
@@ -391,15 +530,8 @@ def search_images_for_dataframe_pixabay_video(terms, api_key, processed_image_pa
                     
                     if collected_images >= l:
                         break
-                
-                used_terms.add(term)
-                
-                if collected_images >= l:
-                    break
-            else:
-                logger.warning(f"  ✗ No images found for term: '{term}'")
 
-    if image_dataframes != []:
+    if image_dataframes:
         images_df = pd.concat(image_dataframes, ignore_index=True)
         
         available_paths = images_df['path_datalake'].tolist()
