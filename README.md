@@ -121,4 +121,4 @@ MIT License — free to use and modify.
 
 ---
 
-*Developed by **Kawtar CHAKIR** — AI/ML Engineer specializing in automation and media generation pipelines.*
+*Developed by **Kawtar CHAKIR** — AI/ML Engineer .*
